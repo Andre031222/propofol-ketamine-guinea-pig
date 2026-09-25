@@ -1,0 +1,266 @@
+{
+  "ficha": 7,
+  "paginas": [
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56
+  ],
+  "identificacion": {
+    "codigo_estudio": "Grupo N°1",
+    "codigo_animal": "Grupo N°1",
+    "fecha": "2026-09-11",
+    "hora_inicio": "09:15",
+    "investigadores": [
+      "Team 07 member A",
+      "Team 07 member B"
+    ],
+    "sexo": "Macho",
+    "peso_g": 532,
+    "procedencia": "Mercado Unión y Dignidad"
+  },
+  "preanestesia": {
+    "peso_g": 532,
+    "temp_c": 38.5,
+    "fc_lpm": 208,
+    "fr_rpm": 120,
+    "spo2_pct": 98,
+    "mucosas": "rosadas",
+    "hidratacion": "Normal",
+    "condicion_corporal": "regular",
+    "estado_general": "Bueno",
+    "evaluacion_clinica": "Animal aparentemente sano",
+    "observaciones": "Muy alterado durante el examen Clínico, presenciamos movimiento lento o leve"
+  },
+  "checklist": {
+    "todo_preparado": "SI",
+    "items_no_marcados": []
+  },
+  "calculo": {
+    "peso_escrito": "532g",
+    "peso_unidad_impresa": "kg",
+    "propofol": {
+      "conc_mg_ml": 10,
+      "dosis_mg_kg": 7,
+      "dosis_mg": 3.724,
+      "vol_ml": 0.37
+    },
+    "ketamina": {
+      "conc_mg_ml": 100,
+      "dosis_mg_kg": 50,
+      "dosis_mg": 26.6,
+      "vol_ml": 0.26
+    }
+  },
+  "administracion": {
+    "hora": "09:48",
+    "tecnica": "Laboratorio de farmacología",
+    "propofol_ml": 0.37,
+    "ketamina_ml": 0.26,
+    "observaciones": "Durante la administración de los fármacos el paciente presentó movimiento bruscos."
+  },
+  "induccion": {
+    "administracion": "09:49",
+    "disminucion_actividad": "09:52",
+    "perdida_enderezamiento": "09:54",
+    "perdida_respuesta_estimulo": "09:54",
+    "perdida_reflejo_pedal": "09:52",
+    "plano_adecuado": "09:54",
+    "calidad": "Buena"
+  },
+  "monitorizacion": [
+    {
+      "tiempo": "basal",
+      "fc": 208,
+      "fr": 140,
+      "temp": 39.6,
+      "spo2": 98,
+      "ref_pedal": "2",
+      "relajacion": "1",
+      "plano": "2"
+    },
+    {
+      "tiempo": "5",
+      "fc": 208,
+      "fr": 140,
+      "temp": 39.6,
+      "spo2": 98,
+      "ref_pedal": "2",
+      "relajacion": "1",
+      "plano": "2"
+    },
+    {
+      "tiempo": "10",
+      "fc": 250,
+      "fr": 80,
+      "temp": 37.6,
+      "spo2": 98,
+      "ref_pedal": "2",
+      "relajacion": "0",
+      "plano": "2"
+    },
+    {
+      "tiempo": "15",
+      "fc": 250,
+      "fr": 128,
+      "temp": 37.6,
+      "spo2": 98,
+      "ref_pedal": "2",
+      "relajacion": "0",
+      "plano": "1"
+    },
+    {
+      "tiempo": "20",
+      "fc": 221,
+      "fr": 128,
+      "temp": 38.8,
+      "spo2": 98,
+      "ref_pedal": "2",
+      "relajacion": "1",
+      "plano": "2"
+    },
+    {
+      "tiempo": "30",
+      "fc": 250,
+      "fr": 84,
+      "temp": 37.9,
+      "spo2": 98,
+      "ref_pedal": "2",
+      "relajacion": "0",
+      "plano": "2"
+    },
+    {
+      "tiempo": "40",
+      "fc": 244,
+      "fr": 126,
+      "temp": 37.9,
+      "spo2": 99,
+      "ref_pedal": "2",
+      "relajacion": "0",
+      "plano": "2"
+    },
+    {
+      "tiempo": "50",
+      "fc": 250,
+      "fr": 96,
+      "temp": 38,
+      "spo2": 89,
+      "ref_pedal": "1",
+      "relajacion": "1",
+      "plano": "1"
+    },
+    {
+      "tiempo": "60",
+      "fc": 250,
+      "fr": 120,
+      "temp": 38.2,
+      "spo2": 98,
+      "ref_pedal": "2",
+      "relajacion": "1",
+      "plano": "2"
+    }
+  ],
+  "escala_profundidad": {
+    "movimiento": 1,
+    "enderezamiento": 1,
+    "reflejo_pedal": 1,
+    "relajacion": 0,
+    "evaluacion_global": "Plano profundo"
+  },
+  "eventos_adversos": {
+    "marcados": [
+      "Hipotermia",
+      "Bradicardia",
+      "Bradipnea",
+      "Hipoxemia",
+      "Recuperación prolongada"
+    ],
+    "otro": "Eliminación de orina y materia fecal",
+    "descripcion": "Hubo una alteración en la frecuencia Cardiaca presentando una (Bradicardia), también presentó Bradipnea prominente a los 30 minutos.",
+    "intervencion": "Colocar al paciente sobre una manta para que no incremente la hipotermia y una limpieza de la orina y materia fecal"
+  },
+  "suspension": {
+    "presento": "No",
+    "causa": "No presentó la suspensión en nuestro paciente",
+    "hora": null,
+    "medidas": null,
+    "resultado": null
+  },
+  "recuperacion": {
+    "hora_suspension": "11:20",
+    "primer_movimiento": "10:40",
+    "reflejo_pedal": "10:45",
+    "enderezamiento": "10:50",
+    "posicion_esternal": "10:50",
+    "ambulacion": "10:55",
+    "completa": "11:20",
+    "calidad": "0 = tranquila y normal"
+  },
+  "postanestesia": {
+    "temp_c": 38.2,
+    "fc": 250,
+    "fr": 120,
+    "spo2": 98,
+    "actividad": "Normal",
+    "postura": "Normal",
+    "apetito": "Normal",
+    "agua": "Normal",
+    "heces": "Normal",
+    "respiracion": "Normal",
+    "dolor": "No evidente",
+    "conducta": "Normal"
+  },
+  "seguimiento": {
+    "h1": "Normal",
+    "h2": "Normal",
+    "h4": "Normal",
+    "h24": "Normal",
+    "peso_posterior_g": 565,
+    "observaciones": "Nuestro paciente tubo una recuperación, para seguir con su actividad además no presentó alteración en el apetito."
+  },
+  "resultado_final": {
+    "eficacia": "Excelente",
+    "seguridad": "Sin eventos adversos",
+    "recuperacion": "Buena",
+    "satisfactorio": "SI",
+    "justificacion": "Fue satisfactorio y la recomendación del protocolo"
+  },
+  "fecha_firma": "2026-09-14",
+  "notas_transcriptor": "Estructura de 8 páginas correcta (p49 identificación ... p56 firma). Código de estudio y de animal ambos 'Grupo N°1' (no hay código individual). Horas escritas con 'am' (9:48 am, 10:40am, 11:20 Am). Cálculo p50: peso escrito '532g' sobre unidad impresa 'kg'; anotaciones a lápiz al margen: '0.53', '7 mg/1000 → 3.724/532', '10 mg–1 mL → 3.724 mg–0.3724 mL'. Propofol: 7 mg/kg × 0.532 kg = 3.724 mg (correcto); vol 0.37 mL (consistente con 10 mg/mL). Ketamina p51 anotaciones a lápiz '50 mg–1000 / 26.6 mg–532' y '100 mg–1 mL / 26.6 mg–0.26 mL'. Inducción con anotaciones entre paréntesis de minutos desde administración (3 min, 5 min, 5 min, 3 min, 5 min); pérdida de reflejo pedal (09:52) anterior a pérdida de enderezamiento (09:54). Monitorización: basal FR 140 difiere de FR preanestésica 120; basal T° 39.6 difiere de temp preanestésica 38.5; FC basal 208 coincide. Columna 'Plano' con valores numéricos 1/2. SpO2 89 a los 50 min (probable base de 'Hipoxemia'). Eventos: 'Bradicardia' y 'Bradipnea' marcados pero FC no desciende por debajo de 208 en la tabla. 'Otro' con texto escrito pero casilla sin marcar. Escala de profundidad: todos los ítems 1/1/1/0 pero evaluación global 'Plano profundo'. Recuperación: hora de suspensión anestésica 11:20 (con '(1h,30min)' a lápiz) es POSTERIOR al primer movimiento (10:40) e igual a recuperación completa — inconsistencia. Anotaciones a lápiz de minutos: 50, 55, 60, 60, 65 min, 1h35min (aprox. desde ~09:45-09:50). Seguridad marcada 'Sin eventos adversos' pese a 5 eventos adversos marcados en sección I. Peso posterior 565 g > peso inicial 532 g. Fecha de firma 14/09/2026 distinta de fecha del procedimiento 11/09/2026.",
+  "flags": [
+    {
+      "campo": "calculo.propofol.vol_ml",
+      "leido": "0.37",
+      "alternativa": "0.87",
+      "motivo": "segundo dígito ambiguo 3/8; 0.37 coherente con cálculo a lápiz 0.3724 y con propofol administrado 0.37"
+    },
+    {
+      "campo": "monitorizacion[60].temp",
+      "leido": "38.2",
+      "alternativa": "33.2",
+      "motivo": "primer dígito ambiguo 3/8; 38.2 coincide con temperatura postanestésica"
+    },
+    {
+      "campo": "monitorizacion[basal].fr",
+      "leido": "140",
+      "alternativa": "190",
+      "motivo": "trazo del segundo dígito ambiguo; 5 min se lee 140 claramente"
+    },
+    {
+      "campo": "postanestesia.fc",
+      "leido": "250",
+      "alternativa": "260",
+      "motivo": "dígito central 5/6 ambiguo"
+    },
+    {
+      "campo": "recuperacion.hora_suspension",
+      "leido": "11:20",
+      "alternativa": null,
+      "motivo": "posterior al primer movimiento 10:40; inconsistente cronológicamente"
+    }
+  ]
+}

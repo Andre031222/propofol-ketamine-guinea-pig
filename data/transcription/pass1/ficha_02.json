@@ -1,0 +1,325 @@
+{
+  "ficha": 2,
+  "paginas": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "identificacion": {
+    "codigo_estudio": "003-B1",
+    "codigo_animal": "003-B1",
+    "fecha": "2026-09-11",
+    "hora_inicio": "09:15",
+    "investigadores": [
+      "Team 02 member A",
+      "Team 02 member B"
+    ],
+    "sexo": "Macho",
+    "peso_g": 512,
+    "procedencia": "Patallani"
+  },
+  "preanestesia": {
+    "peso_g": 512,
+    "temp_c": 38.2,
+    "fc_lpm": 227,
+    "fr_rpm": 174,
+    "spo2_pct": 86,
+    "mucosas": "Normales, Rosadas",
+    "hidratacion": "Normal",
+    "condicion_corporal": "normal",
+    "estado_general": "Bueno",
+    "evaluacion_clinica": "Animal aparentemente sano",
+    "observaciones": "Se encuentra un poco inquieto y tiene hambre"
+  },
+  "checklist": {
+    "todo_preparado": "SI",
+    "items_no_marcados": []
+  },
+  "calculo": {
+    "peso_escrito": "512g.",
+    "peso_unidad_impresa": "kg",
+    "propofol": {
+      "conc_mg_ml": 10,
+      "dosis_mg_kg": 7,
+      "dosis_mg": 3.58,
+      "vol_ml": 0.36
+    },
+    "ketamina": {
+      "conc_mg_ml": 100,
+      "dosis_mg_kg": 50,
+      "dosis_mg": 25.6,
+      "vol_ml": 0.26
+    }
+  },
+  "administracion": {
+    "hora": "09:51",
+    "tecnica": "intra peritonial",
+    "propofol_ml": 0.36,
+    "ketamina_ml": 0.26,
+    "observaciones": "Inquieto al momento de la inyección"
+  },
+  "induccion": {
+    "administracion": "09:51",
+    "disminucion_actividad": "10:02",
+    "perdida_enderezamiento": "10:05",
+    "perdida_respuesta_estimulo": "10:05",
+    "perdida_reflejo_pedal": "10:05",
+    "plano_adecuado": "10:20",
+    "calidad": "Buena"
+  },
+  "monitorizacion": [
+    {
+      "tiempo": "basal",
+      "fc": 227,
+      "fr": 174,
+      "temp": 38.2,
+      "spo2": 86,
+      "ref_pedal": "0",
+      "relajacion": "0",
+      "plano": "Insuficiente"
+    },
+    {
+      "tiempo": "5",
+      "fc": 222,
+      "fr": 108,
+      "temp": 36.8,
+      "spo2": 86,
+      "ref_pedal": "1",
+      "relajacion": "1",
+      "plano": "Adecuado"
+    },
+    {
+      "tiempo": "10",
+      "fc": 216,
+      "fr": 102,
+      "temp": 36.5,
+      "spo2": 85,
+      "ref_pedal": "1",
+      "relajacion": "1",
+      "plano": "Adecuado"
+    },
+    {
+      "tiempo": "15",
+      "fc": 208,
+      "fr": 95,
+      "temp": 36.1,
+      "spo2": 84,
+      "ref_pedal": "2",
+      "relajacion": "2",
+      "plano": "Adecuado"
+    },
+    {
+      "tiempo": "20",
+      "fc": 201,
+      "fr": 103,
+      "temp": 34.8,
+      "spo2": 84,
+      "ref_pedal": "2",
+      "relajacion": "2",
+      "plano": "Adecuado"
+    },
+    {
+      "tiempo": "30",
+      "fc": 215,
+      "fr": 105,
+      "temp": 36.3,
+      "spo2": 85,
+      "ref_pedal": "1",
+      "relajacion": "1",
+      "plano": "Adecuado"
+    },
+    {
+      "tiempo": "40",
+      "fc": 218,
+      "fr": 120,
+      "temp": 36.2,
+      "spo2": 87,
+      "ref_pedal": "0",
+      "relajacion": "0",
+      "plano": "Normal"
+    },
+    {
+      "tiempo": "50",
+      "fc": 229,
+      "fr": 118,
+      "temp": 36.9,
+      "spo2": 86,
+      "ref_pedal": "0",
+      "relajacion": "0",
+      "plano": "Normal"
+    },
+    {
+      "tiempo": "60",
+      "fc": 221,
+      "fr": 118,
+      "temp": 36.7,
+      "spo2": 87,
+      "ref_pedal": "0",
+      "relajacion": "0",
+      "plano": "Normal"
+    }
+  ],
+  "escala_profundidad": {
+    "movimiento": null,
+    "enderezamiento": null,
+    "reflejo_pedal": null,
+    "relajacion": null,
+    "evaluacion_global": null
+  },
+  "eventos_adversos": {
+    "marcados": [
+      "Hipotermia",
+      "Bradicardia",
+      "Bradipnea",
+      "Hipoxemia",
+      "Alteración del ritmo cardíaco",
+      "Recuperación prolongada",
+      "Excitación"
+    ],
+    "otro": null,
+    "descripcion": "Al usar el anestésico el ritmo cardiaco y la frecuencia respiratoria disminuyerón al igual que la temperatura del cobayo",
+    "intervencion": null
+  },
+  "suspension": {
+    "presento": "No",
+    "causa": null,
+    "hora": null,
+    "medidas": null,
+    "resultado": null
+  },
+  "recuperacion": {
+    "hora_suspension": "10:27",
+    "primer_movimiento": "35 min",
+    "reflejo_pedal": "38 min",
+    "enderezamiento": "38 min",
+    "posicion_esternal": "38 min",
+    "ambulacion": "54 min",
+    "completa": "2:00 hrs",
+    "calidad": "0 = tranquila y normal"
+  },
+  "postanestesia": {
+    "temp_c": 38.0,
+    "fc": 215,
+    "fr": 180,
+    "spo2": 87,
+    "actividad": "Normal",
+    "postura": "Normal",
+    "apetito": "Normal",
+    "agua": "Normal",
+    "heces": "Normal",
+    "respiracion": "Normal",
+    "dolor": "No evidente",
+    "conducta": "Normal"
+  },
+  "seguimiento": {
+    "h1": "Normal",
+    "h2": "Normal",
+    "h4": "Normal",
+    "h24": "Normal",
+    "peso_posterior_g": 530,
+    "observaciones": "Se encuentra un poco temeroso con cierta agresividad a los dos días, mordió agresivamente a otro cobayo causándole la muerte"
+  },
+  "resultado_final": {
+    "eficacia": "Excelente",
+    "seguridad": [
+      "Eventos adversos leves",
+      "Eventos adversos graves"
+    ],
+    "recuperacion": "Buena",
+    "satisfactorio": "SI",
+    "justificacion": "La recuperación del cobayo postanestesia fue Buena, aunque presenta cierta agresividad,"
+  },
+  "fecha_firma": "2026-09-11",
+  "notas_transcriptor": "Estructura correcta: 8 páginas en orden (p9 identificación ... p16 firma). Fecha de identificación escrita '11/09/26'; fecha firma '11/09/2026' — anterior a la ficha 1 (16/09/2026) aunque aparece después en el PDF. Horas escritas con 'AM'. Checklist con marcas tipo ✓ en todas las casillas. Sección D: peso '512g.' escrito junto a unidad impresa 'kg'. Propofol en esta ficha: concentración 10 mg/mL y dosis 7 mg/kg (en ficha 1 aparecen invertidos: conc 7, dosis 10). Cálculos consistentes: 7×0.512=3.58 mg → 0.36 mL; 50×0.512=25.6 mg → 0.26 mL. Volumen ketamina calculado '0.26' con el '2' sobrescrito. Disminución actividad '10:02' con dígito sobrescrito. Sección H (escala de profundidad) completamente sin marcar → null. Columna Plano con texto ('Insuficiente' basal, 'Adecuado' 5–30, 'Normal' 40–60). SpO2 escrito con '%' en la tabla; SpO2 basal ya 86% (bajo). Eventos adversos: 7 casillas marcadas (✓), incluida Excitación y Recuperación prolongada; Apnea con marca muy tenue, se consideró no marcada. Suspensión 'No'. Recuperación: hora de suspensión 10:27 AM (antes de completar 60 min de monitorización si el plano adecuado fue 10:20 o administración 9:51 — inconsistente con tabla hasta 60 min); los eventos de recuperación se escribieron como duraciones ('35 min', '38 min', '54 min', '2:00 hrs'), no como horas de reloj; se transcribieron literalmente como texto. FR postanestesia 180. Seguridad: marcadas dos casillas ('Eventos adversos leves' con X y 'Eventos adversos graves' con ✓) → se guardó lista. Recuperación final: 'Buena' marcada; la casilla 'Regular' tiene una marca muy tenue (probablemente no marcada). Seguimiento: peso posterior 530 g (mayor que 512 g). Observación: a los dos días mordió agresivamente a otro cobayo causándole la muerte. Firmas escritas como nombres ('[redacted] ', '[redacted] ').",
+  "flags": [
+    {
+      "campo": "preanestesia.fr_rpm",
+      "leido": "174",
+      "alternativa": "114",
+      "motivo": "Dígitos sobrescritos/retintados; mismo valor 174 en tabla basal"
+    },
+    {
+      "campo": "monitorizacion[basal].plano",
+      "leido": "Insuficiente",
+      "alternativa": "Medicamente/otra palabra",
+      "motivo": "Palabra poco legible, parece 'Insuficiente' (se lee 'mediciente')"
+    },
+    {
+      "campo": "monitorizacion[15].fr",
+      "leido": "95",
+      "alternativa": "85",
+      "motivo": "Primer dígito ambiguo"
+    },
+    {
+      "campo": "monitorizacion[20].temp",
+      "leido": "34.8",
+      "alternativa": "36.8",
+      "motivo": "Valor atípico frente a 36.1 y 36.3 adyacentes; el primer dígito parece 4"
+    },
+    {
+      "campo": "monitorizacion[20].spo2",
+      "leido": "84",
+      "alternativa": "89",
+      "motivo": "Segundo dígito ambiguo"
+    },
+    {
+      "campo": "monitorizacion[50].spo2",
+      "leido": "86",
+      "alternativa": "88",
+      "motivo": "Segundo dígito tachado/ambiguo"
+    },
+    {
+      "campo": "monitorizacion[60].spo2",
+      "leido": "87",
+      "alternativa": "89",
+      "motivo": "Trazo poco claro"
+    },
+    {
+      "campo": "monitorizacion[50].fc",
+      "leido": "229",
+      "alternativa": "224",
+      "motivo": "Último dígito ambiguo"
+    },
+    {
+      "campo": "calculo.ketamina.vol_ml",
+      "leido": "0.26",
+      "alternativa": "0.16",
+      "motivo": "Dígito '2' sobrescrito"
+    },
+    {
+      "campo": "induccion.disminucion_actividad",
+      "leido": "10:02",
+      "alternativa": "10:00",
+      "motivo": "Dígito sobrescrito"
+    },
+    {
+      "campo": "recuperacion.hora_suspension",
+      "leido": "10:27",
+      "alternativa": "10:21",
+      "motivo": "Último dígito ambiguo; además inconsistente con monitorización de 60 min"
+    },
+    {
+      "campo": "resultado_final.seguridad",
+      "leido": "Eventos adversos leves + Eventos adversos graves",
+      "alternativa": "solo una de ellas",
+      "motivo": "Dos casillas marcadas con símbolos distintos (X y ✓)"
+    },
+    {
+      "campo": "resultado_final.recuperacion",
+      "leido": "Buena",
+      "alternativa": "Regular",
+      "motivo": "Marca tenue en casilla 'Regular'"
+    },
+    {
+      "campo": "eventos_adversos.marcados",
+      "leido": "sin Apnea",
+      "alternativa": "con Apnea",
+      "motivo": "Marca muy tenue en casilla Apnea"
+    }
+  ]
+}

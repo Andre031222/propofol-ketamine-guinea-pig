@@ -1,0 +1,270 @@
+{
+  "ficha": 5,
+  "paginas": [
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40
+  ],
+  "identificacion": {
+    "codigo_estudio": "B2",
+    "codigo_animal": "B2-6",
+    "fecha": "2026-09-08",
+    "hora_inicio": "14:00",
+    "investigadores": [
+      "Team 05 member A",
+      "Team 05 member B"
+    ],
+    "sexo": "Macho",
+    "peso_g": 538,
+    "procedencia": "Puno"
+  },
+  "preanestesia": {
+    "peso_g": 538,
+    "temp_c": 35.4,
+    "fc_lpm": 130,
+    "fr_rpm": 105,
+    "spo2_pct": 97,
+    "mucosas": "Normal",
+    "hidratacion": "Normal",
+    "condicion_corporal": "Normal",
+    "estado_general": "Bueno",
+    "evaluacion_clinica": "Animal aparentemente sano",
+    "observaciones": "No se obserbó alteraciones ni anormalidades"
+  },
+  "checklist": {
+    "todo_preparado": "SI",
+    "items_no_marcados": [
+      "Criterios de inclusión confirmados",
+      "Criterios de exclusión descartados",
+      "Tiempo de ayuno registrado",
+      "Concentración comprobada",
+      "Jeringas rotuladas"
+    ]
+  },
+  "calculo": {
+    "peso_escrito": "538",
+    "peso_unidad_impresa": "kg",
+    "propofol": {
+      "conc_mg_ml": 10,
+      "dosis_mg_kg": 7,
+      "dosis_mg": 3.766,
+      "vol_ml": 0.377
+    },
+    "ketamina": {
+      "conc_mg_ml": 100,
+      "dosis_mg_kg": 50,
+      "dosis_mg": 26.9,
+      "vol_ml": 0.269
+    }
+  },
+  "administracion": {
+    "hora": "14:47",
+    "tecnica": "Cuadrante abdominal inferior",
+    "propofol_ml": 0.377,
+    "ketamina_ml": 0.269,
+    "observaciones": "Administración realizada sin complicaciones"
+  },
+  "induccion": {
+    "administracion": "14:47",
+    "disminucion_actividad": "14:52",
+    "perdida_enderezamiento": "14:53",
+    "perdida_respuesta_estimulo": "14:53",
+    "perdida_reflejo_pedal": "14:53",
+    "plano_adecuado": "14:53",
+    "calidad": "Muy buena"
+  },
+  "monitorizacion": [
+    {
+      "tiempo": "basal",
+      "fc": 190,
+      "fr": 45,
+      "temp": 35.3,
+      "spo2": 82,
+      "ref_pedal": "2",
+      "relajacion": "0",
+      "plano": "1"
+    },
+    {
+      "tiempo": "5",
+      "fc": 220,
+      "fr": 33,
+      "temp": 33.3,
+      "spo2": 67,
+      "ref_pedal": "2",
+      "relajacion": "0",
+      "plano": "1"
+    },
+    {
+      "tiempo": "10",
+      "fc": 230,
+      "fr": 29,
+      "temp": 32.8,
+      "spo2": 65,
+      "ref_pedal": "2",
+      "relajacion": "0",
+      "plano": "1"
+    },
+    {
+      "tiempo": "15",
+      "fc": 234,
+      "fr": 30,
+      "temp": 32.6,
+      "spo2": 66,
+      "ref_pedal": "2",
+      "relajacion": "0",
+      "plano": "1"
+    },
+    {
+      "tiempo": "20",
+      "fc": 216,
+      "fr": 31,
+      "temp": 32.1,
+      "spo2": 77,
+      "ref_pedal": "2",
+      "relajacion": "0",
+      "plano": "1"
+    },
+    {
+      "tiempo": "30",
+      "fc": 242,
+      "fr": 32,
+      "temp": 32.4,
+      "spo2": 71,
+      "ref_pedal": "1",
+      "relajacion": "1",
+      "plano": "1"
+    },
+    {
+      "tiempo": "40",
+      "fc": 231,
+      "fr": 40,
+      "temp": 32.9,
+      "spo2": 80,
+      "ref_pedal": "1",
+      "relajacion": "1",
+      "plano": "2"
+    },
+    {
+      "tiempo": "50",
+      "fc": 200,
+      "fr": 41,
+      "temp": 33.4,
+      "spo2": 83,
+      "ref_pedal": "0",
+      "relajacion": "2",
+      "plano": "2"
+    },
+    {
+      "tiempo": "60",
+      "fc": 215,
+      "fr": 43,
+      "temp": 33.4,
+      "spo2": 82,
+      "ref_pedal": "0",
+      "relajacion": "2",
+      "plano": "2"
+    }
+  ],
+  "escala_profundidad": {
+    "movimiento": 2,
+    "enderezamiento": 2,
+    "reflejo_pedal": 2,
+    "relajacion": 2,
+    "evaluacion_global": "Plano profundo"
+  },
+  "eventos_adversos": {
+    "marcados": [
+      "Ninguno",
+      "Hipotermia",
+      "Hipoxemia"
+    ],
+    "otro": null,
+    "descripcion": "Se observó Hipotermia durante la anestesia, con descenso de la temperatura de 35.3°C hasta 32.1°C y una disminución de la SpO2 alcanzando un mínimo de 65%",
+    "intervencion": "Monitorización continua, mantenimiento de la temperatura corporal y vigilancia de la frecuencia respiratoria y SpO2"
+  },
+  "suspension": {
+    "presento": "No",
+    "causa": "No aplica",
+    "hora": "No aplica",
+    "medidas": "Monitorización de parametros fisiológicos",
+    "resultado": "Recuperación progresiva, sin necesidad de suspender el procedimiento"
+  },
+  "recuperacion": {
+    "hora_suspension": "15:47",
+    "primer_movimiento": "15:50",
+    "reflejo_pedal": "15:50",
+    "enderezamiento": "16:00",
+    "posicion_esternal": "16:10",
+    "ambulacion": "16:20",
+    "completa": "16:30",
+    "calidad": "0 = tranquila y normal"
+  },
+  "postanestesia": {
+    "temp_c": 35.4,
+    "fc": 215,
+    "fr": 43,
+    "spo2": 82,
+    "actividad": "Normal",
+    "postura": "Normal",
+    "apetito": "Normal",
+    "agua": "Normal",
+    "heces": "Normal",
+    "respiracion": "Normal",
+    "dolor": "No evidente",
+    "conducta": "Normal"
+  },
+  "seguimiento": {
+    "h1": "Normal",
+    "h2": "Normal",
+    "h4": "Normal",
+    "h24": "Normal",
+    "peso_posterior_g": 540,
+    "observaciones": "Recuperación progresiva y favorable. El animal recuperó movilidad, postura y conducta normal, sin observarse complicaciones posteriores durante el seguimiento"
+  },
+  "resultado_final": {
+    "eficacia": "Buena",
+    "seguridad": "Eventos adversos moderados",
+    "recuperacion": "Buena",
+    "satisfactorio": "SI",
+    "justificacion": "El protocolo condujo una anestesia efectiva y permitió alcanzar una adecuada profundidad anestésica. Se presentaron hipotermia e hipoxemia durante el procedimiento con recuperación progresiva posterior, retorno de la actividad y conducta normal."
+  },
+  "fecha_firma": "2026-09-08",
+  "notas_transcriptor": "Estructura correcta: 8 páginas (33-40) consecutivas de un mismo animal (B2-6). Horas escritas en formato 12 h con 'pm' (2:00 pm, 2:47, 3:47 pm, 3:50...) convertidas a 24 h. Temperatura preanestésica (p33) y temperatura postanestésica (p38) tienen el segundo dígito sobrescrito (repasado con tinta más oscura); se leyó 35.4 en ambos casos. La T° postanestésica 35.4 difiere de la T° a 60 min de la tabla (33.4), y FC/FR/SpO2 postanestésicas (215/43/82) son idénticas a la fila 60 min. Basal de la tabla (FC 190, FR 45, T 35.3, SpO2 82) no coincide con evaluación preanestésica (FC 130, FR 105, SpO2 97). Cálculo propofol: peso '538' escrito en campo con unidad impresa 'kg'; dosis calculada escrita con separadores irregulares ('3.76.6'), coherente con 0.538 kg x 7 = 3.766 mg y volumen 0.377 mL; ketamina 26.9 mg = 0.538 x 50. Monitoreo: Ref. pedal y Relajación codificados con números 0/1/2 (Ref. pedal 2 al inicio y 0 al final; parece usar la escala de profundidad donde 2 = ausente), Plano codificado con números 1/2; transcrito literal. Eventos adversos: están marcados simultáneamente 'Ninguno', 'Hipotermia' e 'Hipoxemia' (contradicción). Descripción dice mínimo SpO2 65% (coincide con 10 min). Recuperación: hora de suspensión 15:47 y primer movimiento 15:50 caen antes del final teórico de la monitorización a 60 min (plano adecuado 14:53 + 60 = 15:53). Seguridad 'Eventos adversos moderados'. Peso posterior con dígito central sobrescrito (540 vs 580). Firma: dos rúbricas sin nombre; fecha 08/09/2026.",
+  "flags": [
+    {
+      "campo": "preanestesia.temp_c",
+      "leido": "35.4",
+      "alternativa": "33.4 / 37.4",
+      "motivo": "segundo dígito sobrescrito/repasado"
+    },
+    {
+      "campo": "postanestesia.temp_c",
+      "leido": "35.4",
+      "alternativa": "33.4",
+      "motivo": "segundo dígito sobrescrito; tabla a 60 min dice 33.4"
+    },
+    {
+      "campo": "seguimiento.peso_posterior_g",
+      "leido": "540",
+      "alternativa": "580",
+      "motivo": "dígito central sobrescrito (8 sobre 4 o viceversa)"
+    },
+    {
+      "campo": "calculo.propofol.dosis_mg",
+      "leido": "3.76.6 (interpretado 3.766)",
+      "alternativa": "3766 / 376.6",
+      "motivo": "separadores decimales irregulares"
+    },
+    {
+      "campo": "monitorizacion[15].fr",
+      "leido": "30",
+      "alternativa": "80",
+      "motivo": "primer dígito parece 8 cerrado; 30 más coherente con la serie 29-31"
+    }
+  ]
+}

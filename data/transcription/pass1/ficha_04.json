@@ -1,0 +1,283 @@
+{
+  "ficha": 4,
+  "paginas": [
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "identificacion": {
+    "codigo_estudio": "0002 B1",
+    "codigo_animal": "002",
+    "fecha": "2026-09-11",
+    "hora_inicio": "09:00",
+    "investigadores": [
+      "Team 04 member A",
+      "Team 04 member B"
+    ],
+    "sexo": "Macho",
+    "peso_g": 559,
+    "procedencia": "Puno"
+  },
+  "preanestesia": {
+    "peso_g": 559,
+    "temp_c": 37.5,
+    "fc_lpm": 260,
+    "fr_rpm": 116,
+    "spo2_pct": 97,
+    "mucosas": "rosasia",
+    "hidratacion": "Normal",
+    "condicion_corporal": "Saludable",
+    "estado_general": "Bueno",
+    "evaluacion_clinica": "Animal aparentemente sano",
+    "observaciones": "Despriende mucho pelo, heridas en los orejas."
+  },
+  "checklist": {
+    "todo_preparado": "SI",
+    "items_no_marcados": [
+      "Tiempo de ayuno registrado",
+      "Jeringas rotuladas",
+      "Pulsioxímetro"
+    ]
+  },
+  "calculo": {
+    "peso_escrito": "559",
+    "peso_unidad_impresa": "kg",
+    "propofol": {
+      "conc_mg_ml": 10,
+      "dosis_mg_kg": 7,
+      "dosis_mg": 3.91,
+      "vol_ml": 0.0391
+    },
+    "ketamina": {
+      "conc_mg_ml": 100,
+      "dosis_mg_kg": 50,
+      "dosis_mg": 27.95,
+      "vol_ml": 0.2795
+    }
+  },
+  "administracion": {
+    "hora": "09:50",
+    "tecnica": "Inter peritoneal.",
+    "propofol_ml": 0.039,
+    "ketamina_ml": 0.27,
+    "observaciones": null
+  },
+  "induccion": {
+    "administracion": "09:50",
+    "disminucion_actividad": "09:52",
+    "perdida_enderezamiento": "09:58",
+    "perdida_respuesta_estimulo": "10:01",
+    "perdida_reflejo_pedal": "09:54",
+    "plano_adecuado": "10:01",
+    "calidad": "Muy buena"
+  },
+  "monitorizacion": [
+    {
+      "tiempo": "basal",
+      "fc": 260,
+      "fr": 116,
+      "temp": 37.5,
+      "spo2": 97,
+      "ref_pedal": "SI",
+      "relajacion": "NO",
+      "plano": null
+    },
+    {
+      "tiempo": "5",
+      "fc": 264,
+      "fr": 105,
+      "temp": 36.0,
+      "spo2": 98,
+      "ref_pedal": "NO",
+      "relajacion": "SI",
+      "plano": "PII"
+    },
+    {
+      "tiempo": "10",
+      "fc": 272,
+      "fr": 70,
+      "temp": 35.8,
+      "spo2": 98,
+      "ref_pedal": "NO",
+      "relajacion": "SI",
+      "plano": "PII"
+    },
+    {
+      "tiempo": "15",
+      "fc": 220,
+      "fr": 80,
+      "temp": 36.6,
+      "spo2": 98,
+      "ref_pedal": "NO",
+      "relajacion": "SI",
+      "plano": "PII"
+    },
+    {
+      "tiempo": "20",
+      "fc": 260,
+      "fr": 78,
+      "temp": 35.5,
+      "spo2": 98,
+      "ref_pedal": "NO",
+      "relajacion": "SI",
+      "plano": "PII"
+    },
+    {
+      "tiempo": "30",
+      "fc": 260,
+      "fr": 70,
+      "temp": 35.5,
+      "spo2": 98,
+      "ref_pedal": "NO",
+      "relajacion": "SI",
+      "plano": "PII"
+    },
+    {
+      "tiempo": "40",
+      "fc": 254,
+      "fr": 72,
+      "temp": 35.0,
+      "spo2": 98,
+      "ref_pedal": "NO",
+      "relajacion": "NO",
+      "plano": "No hay"
+    },
+    {
+      "tiempo": "50",
+      "fc": 230,
+      "fr": 80,
+      "temp": 35.0,
+      "spo2": 98,
+      "ref_pedal": "SI",
+      "relajacion": "NO",
+      "plano": "No hay"
+    },
+    {
+      "tiempo": "60",
+      "fc": 200,
+      "fr": 82,
+      "temp": 35.5,
+      "spo2": 98,
+      "ref_pedal": "SI",
+      "relajacion": "NO",
+      "plano": "No hay"
+    }
+  ],
+  "escala_profundidad": {
+    "movimiento": 2,
+    "enderezamiento": 2,
+    "reflejo_pedal": 2,
+    "relajacion": 2,
+    "evaluacion_global": "Plano profundo"
+  },
+  "eventos_adversos": {
+    "marcados": [
+      "Hipotermia",
+      "Bradicardia",
+      "Taquicardia",
+      "Bradipnea",
+      "Apnea",
+      "Alteración del ritmo cardíaco"
+    ],
+    "otro": "Juego de parpadeo, orino.",
+    "descripcion": "El objeto de estudio se encuentra en un plano II totalmente relajado, sin reflejos.",
+    "intervencion": null
+  },
+  "suspension": {
+    "presento": "No",
+    "causa": null,
+    "hora": null,
+    "medidas": null,
+    "resultado": null
+  },
+  "recuperacion": {
+    "hora_suspension": null,
+    "primer_movimiento": "10:16",
+    "reflejo_pedal": "10:40",
+    "enderezamiento": "10:31",
+    "posicion_esternal": "10:31",
+    "ambulacion": "10:32",
+    "completa": "11:00",
+    "calidad": "0 = tranquila y normal"
+  },
+  "postanestesia": {
+    "temp_c": 36,
+    "fc": 230,
+    "fr": 110,
+    "spo2": 49,
+    "actividad": "Normal",
+    "postura": "Normal",
+    "apetito": "Normal",
+    "agua": "Normal",
+    "heces": "Normal",
+    "respiracion": "Normal",
+    "dolor": "No evidente",
+    "conducta": "Normal"
+  },
+  "seguimiento": {
+    "h1": "Normal",
+    "h2": "Normal",
+    "h4": "Normal",
+    "h24": "Normal",
+    "peso_posterior_g": null,
+    "observaciones": "El objeto de estudio pudo recuperarse alas 12:00 am Pudiendo caminar, con apetito, sed. aparentemente una recuperación buena."
+  },
+  "resultado_final": {
+    "eficacia": "Excelente",
+    "seguridad": "Sin eventos adversos",
+    "recuperacion": "Excelente",
+    "satisfactorio": "SI",
+    "justificacion": null
+  },
+  "fecha_firma": "2026-09-14",
+  "notas_transcriptor": "Estructura de 8 páginas correcta (p25-32); tinta azul, grupo de investigadores distinto a ficha 3. Código del estudio escrito '0002  B1'. Peso 559 escrito en campo impreso 'kg' (valor en g). ERROR DE CÁLCULO en original: propofol 559 g x 7 mg/kg = 3.91 mg -> a 10 mg/mL el volumen correcto sería 0.391 mL, pero se escribió 0.0391 mL y se registró administrado 0.039 mL (10 veces menos). Ketamina 27.95 mg / 100 = 0.2795 mL; administrado 0.27 mL. Lugar/técnica: 'Inter peritoneal.' Inducción no monótona: pérdida reflejo pedal 09:54 antes de pérdida enderezamiento 09:58. Monitorización: ref. pedal y relajación registrados como SI/NO; plano 'PII' (P con numeral romano II) de 5 a 30 min y 'No hay' de 40 a 60 min; plano basal vacío. T° basal 37.5 coincide con preanestesia. Monitorización llega a 60 min (≈10:50) pero primer movimiento 10:16 y ambulación 10:32: inconsistencia temporal. Recuperación no monótona: reflejo pedal 10:40 posterior a enderezamiento/esternal 10:31 y ambulación 10:32. Hora de suspensión anestésica en blanco. Eventos adversos: 6 casillas marcadas; casilla 'Otro' sin marcar pero con texto escrito. Seguridad marcada 'Sin eventos adversos' pese a los eventos marcados. Escala H: todo 2 y 'Plano profundo', mientras descripción dice 'plano II'. SpO2 postanestésica 49% (implausible; posiblemente 99 o 97). Seguimiento: recuperación 'alas 12:00 am' (probable 12:00 del día o 11:00 que coincide con recuperación completa). Peso posterior y justificación en blanco. Fecha firma 14/09/2026.",
+  "flags": [
+    {
+      "campo": "postanestesia.spo2",
+      "leido": "49",
+      "alternativa": "99",
+      "motivo": "valor implausible; primer dígito claramente parece 4"
+    },
+    {
+      "campo": "monitorizacion[20].fr",
+      "leido": "78",
+      "alternativa": "18",
+      "motivo": "dígitos sobreescritos"
+    },
+    {
+      "campo": "monitorizacion[15].temp",
+      "leido": "36.6",
+      "alternativa": "35.6",
+      "motivo": "rompe la tendencia descendente; posible 35.6"
+    },
+    {
+      "campo": "eventos_adversos.otro",
+      "leido": "Juego de parpadeo, orino.",
+      "alternativa": "Juego de parpado, orino.",
+      "motivo": "escritura con trazos superpuestos"
+    },
+    {
+      "campo": "seguimiento.observaciones",
+      "leido": "12:00 am",
+      "alternativa": "11:00 am",
+      "motivo": "primer dígito de la hora poco claro"
+    },
+    {
+      "campo": "preanestesia.mucosas",
+      "leido": "rosasia",
+      "alternativa": "rosacia/rosadas",
+      "motivo": "escritura literal dudosa"
+    },
+    {
+      "campo": "calculo.propofol.vol_ml",
+      "leido": "0.0391",
+      "alternativa": null,
+      "motivo": "error de cálculo x10 en original (debería ser 0.391); transcrito literal"
+    }
+  ]
+}

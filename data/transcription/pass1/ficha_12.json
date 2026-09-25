@@ -1,0 +1,256 @@
+{
+  "ficha": 12,
+  "paginas": [
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96
+  ],
+  "identificacion": {
+    "codigo_estudio": "B2",
+    "codigo_animal": "B2-5",
+    "fecha": "2026-09-08",
+    "hora_inicio": "14:01",
+    "investigadores": [
+      "Team 12 member A",
+      "Team 12 member B"
+    ],
+    "sexo": "Macho",
+    "peso_g": 523,
+    "procedencia": "Puno"
+  },
+  "preanestesia": {
+    "peso_g": 523,
+    "temp_c": 34.3,
+    "fc_lpm": 232,
+    "fr_rpm": 44,
+    "spo2_pct": 50,
+    "mucosas": "Normal",
+    "hidratacion": "Normal",
+    "condicion_corporal": "Normal",
+    "estado_general": "Bueno",
+    "evaluacion_clinica": "Animal aparentemente sano",
+    "observaciones": "Durante la evaluacion el cobayo estuvo haciendo sus necesidades."
+  },
+  "checklist": {
+    "todo_preparado": "SI",
+    "items_no_marcados": []
+  },
+  "calculo": {
+    "peso_escrito": "523",
+    "peso_unidad_impresa": "kg",
+    "propofol": {
+      "conc_mg_ml": 10,
+      "dosis_mg_kg": 7,
+      "dosis_mg": 3.661,
+      "vol_ml": 0.36
+    },
+    "ketamina": {
+      "conc_mg_ml": 100,
+      "dosis_mg_kg": 50,
+      "dosis_mg": 26.15,
+      "vol_ml": 0.26
+    }
+  },
+  "administracion": {
+    "hora": "14:47",
+    "tecnica": "Intraperitoneal",
+    "propofol_ml": 0.36,
+    "ketamina_ml": 0.26,
+    "observaciones": null
+  },
+  "induccion": {
+    "administracion": "14:47",
+    "disminucion_actividad": "14:50",
+    "perdida_enderezamiento": "14:51",
+    "perdida_respuesta_estimulo": "14:56",
+    "perdida_reflejo_pedal": "14:57",
+    "plano_adecuado": "14:59",
+    "calidad": "Buena"
+  },
+  "monitorizacion": [
+    {
+      "tiempo": "basal",
+      "fc": 232,
+      "fr": 44,
+      "temp": 34.3,
+      "spo2": 50,
+      "ref_pedal": "0",
+      "relajacion": "0",
+      "plano": "I"
+    },
+    {
+      "tiempo": "5",
+      "fc": 240,
+      "fr": 74,
+      "temp": 34.1,
+      "spo2": 45,
+      "ref_pedal": "1",
+      "relajacion": "1",
+      "plano": "II"
+    },
+    {
+      "tiempo": "10",
+      "fc": 286,
+      "fr": 71,
+      "temp": 34,
+      "spo2": 46,
+      "ref_pedal": "2",
+      "relajacion": "2",
+      "plano": "III"
+    },
+    {
+      "tiempo": "15",
+      "fc": 288,
+      "fr": 70,
+      "temp": 33.9,
+      "spo2": 48,
+      "ref_pedal": "2",
+      "relajacion": "1",
+      "plano": "III"
+    },
+    {
+      "tiempo": "20",
+      "fc": 276,
+      "fr": 68,
+      "temp": 33.6,
+      "spo2": 51,
+      "ref_pedal": "2",
+      "relajacion": "1",
+      "plano": "III"
+    },
+    {
+      "tiempo": "30",
+      "fc": 272,
+      "fr": 67,
+      "temp": 33.6,
+      "spo2": 58,
+      "ref_pedal": "1",
+      "relajacion": "1",
+      "plano": "II"
+    },
+    {
+      "tiempo": "40",
+      "fc": 270,
+      "fr": 72,
+      "temp": 34.2,
+      "spo2": 61,
+      "ref_pedal": "1",
+      "relajacion": "1",
+      "plano": "II"
+    },
+    {
+      "tiempo": "50",
+      "fc": 230,
+      "fr": 70,
+      "temp": 34.3,
+      "spo2": 61,
+      "ref_pedal": "0",
+      "relajacion": "0",
+      "plano": "I"
+    },
+    {
+      "tiempo": "60",
+      "fc": 234,
+      "fr": 71,
+      "temp": 35,
+      "spo2": 61,
+      "ref_pedal": "0",
+      "relajacion": "0",
+      "plano": "I"
+    }
+  ],
+  "escala_profundidad": {
+    "movimiento": 2,
+    "enderezamiento": 2,
+    "reflejo_pedal": 2,
+    "relajacion": 1,
+    "evaluacion_global": "Plano adecuado"
+  },
+  "eventos_adversos": {
+    "marcados": [
+      "Ninguno"
+    ],
+    "otro": null,
+    "descripcion": null,
+    "intervencion": null
+  },
+  "suspension": {
+    "presento": "No",
+    "causa": null,
+    "hora": null,
+    "medidas": null,
+    "resultado": null
+  },
+  "recuperacion": {
+    "hora_suspension": "15:27",
+    "primer_movimiento": "15:28",
+    "reflejo_pedal": "15:29",
+    "enderezamiento": "15:31",
+    "posicion_esternal": "15:31",
+    "ambulacion": "15:33",
+    "completa": "15:37",
+    "calidad": "0 = tranquila y normal"
+  },
+  "postanestesia": {
+    "temp_c": 34.9,
+    "fc": 234,
+    "fr": 70,
+    "spo2": 60,
+    "actividad": "Normal",
+    "postura": "Normal",
+    "apetito": "Normal",
+    "agua": "Normal",
+    "heces": "Normal",
+    "respiracion": "Normal",
+    "dolor": "No evidente",
+    "conducta": "Normal"
+  },
+  "seguimiento": {
+    "h1": "Normal",
+    "h2": "Normal",
+    "h4": "Normal",
+    "h24": "Normal",
+    "peso_posterior_g": 556,
+    "observaciones": "Posterior al tiempo de reaccion el cobayo, se mantuvo tranquilo, comiendo y bebiendo con normalidad. Se evidencio aumento de peso."
+  },
+  "resultado_final": {
+    "eficacia": "Buena",
+    "seguridad": "Sin eventos adversos",
+    "recuperacion": "Buena",
+    "satisfactorio": "SI",
+    "justificacion": "El protocolo salio como se planeo, aunque el cobayo reacciono antes no afecto a los resultados"
+  },
+  "fecha_firma": "2026-09-08",
+  "notas_transcriptor": "Estructura de 8 paginas correcta (p89 identificacion ... p96 firma). Fechas escritas con ano de 2 digitos ('26'). Peso en calculo escrito '523' junto a la unidad impresa 'kg' (deberia ser 0.523 kg); dosis calculadas coherentes con 0.523 kg (7 x 0.523 = 3.661 mg; 50 x 0.523 = 26.15 mg). Columna Plano en numeros romanos (I, II, III). SpO2 muy baja en toda la monitorizacion (45-61 %) y preanestesica 50 %, postanestesica 60 %, pero eventos adversos marcado 'Ninguno' y seguridad 'Sin eventos adversos' (posible problema de lectura del oximetro; no se comenta en la ficha). Inconsistencia temporal: administracion 14:47, por lo que las filas de 50 y 60 min corresponderian a 15:37 y 15:47, pero la hora de suspension anestesica es 15:27 y la recuperacion completa 15:37. Basal de la tabla identico a los valores preanestesicos. Peso posterior 556 g > 523 g inicial (la ficha lo menciona). Firmas presentes junto a los nombres manuscritos. Observaciones de administracion en blanco.",
+  "flags": [
+    {
+      "campo": "preanestesia.spo2_pct",
+      "leido": "50",
+      "alternativa": "90",
+      "motivo": "valor clinicamente implausible para animal sano; lectura clara pero se senala. Se repite como basal en la tabla"
+    },
+    {
+      "campo": "monitorizacion[5].fr",
+      "leido": "74",
+      "alternativa": "44",
+      "motivo": "primer digito parece 7; salto brusco desde basal 44"
+    },
+    {
+      "campo": "recuperacion.completa",
+      "leido": "15:37",
+      "alternativa": "15:31",
+      "motivo": "ultimo digito 7/1 ambiguo"
+    },
+    {
+      "campo": "induccion.perdida_reflejo_pedal",
+      "leido": "14:57",
+      "alternativa": "14:51",
+      "motivo": "ultimo digito 7/1 ambiguo; 57 es monotono con 14:56"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+ficha,campo,valor_p1,valor_p2,seccion
+1,monit.10.plano,Δ,A,monit
+1,monit.15.plano,Δ,A,monit
+1,monit.20.plano,Δ,A,monit
+1,monit.30.plano,Δ,A,monit
+1,monit.40.plano,Δ,A,monit
+1,monit.5.plano,Δ,A,monit
+1,monit.50.plano,Δ,A,monit
+1,monit.60.plano,Δ,A,monit
+2,recuperacion.ambulacion,54 min,54min,recuperacion
+2,recuperacion.completa,2:00 hrs,2:00 hrs.,recuperacion
+2,recuperacion.enderezamiento,38 min,38min.,recuperacion
+2,recuperacion.primer_movimiento,35 min,35.min.,recuperacion
+2,recuperacion.reflejo_pedal,38 min,38.min.,recuperacion
+3,monit.50.temp,39.5,34.5,monit
+6,monit.10.fc,276,2.76,monit
+6,monit.20.fc,274,2.74,monit
+6,monit.30.fc,278,2.78,monit
+6,monit.40.fc,276,2.76,monit
+6,monit.5.fc,270,2.7,monit
+6,monit.50.fc,270,2.7,monit
+6,monit.60.fc,270,2.7,monit
+6,monit.basal.plano,–,-,monit
+8,escala_profundidad.movimiento,1 y 2 (ambas marcadas),1,escala_profundidad
+9,monit.30.spo2,91,41,monit
+11,identificacion.codigo_estudio,"""B2""",B2,identificacion
+13,monit.basal.fc,255,253,monit

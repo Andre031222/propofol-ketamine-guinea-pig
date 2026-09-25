@@ -1,0 +1,288 @@
+{
+  "ficha": 13,
+  "paginas": [
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104
+  ],
+  "identificacion": {
+    "codigo_estudio": "G. b2",
+    "codigo_animal": "07",
+    "fecha": "2026-09-08",
+    "hora_inicio": "14:05",
+    "investigadores": [
+      "Team 13 member A",
+      "Team 13 member B"
+    ],
+    "sexo": "Macho",
+    "peso_g": 500,
+    "procedencia": "Puno"
+  },
+  "preanestesia": {
+    "peso_g": 500,
+    "temp_c": 35.2,
+    "fc_lpm": 235,
+    "fr_rpm": 47,
+    "spo2_pct": 87,
+    "mucosas": "normal",
+    "hidratacion": "Normal",
+    "condicion_corporal": "bueno",
+    "estado_general": "Bueno",
+    "evaluacion_clinica": "Animal aparentemente sano",
+    "observaciones": "Ninguna"
+  },
+  "checklist": {
+    "todo_preparado": "SI",
+    "items_no_marcados": []
+  },
+  "calculo": {
+    "peso_escrito": "500",
+    "peso_unidad_impresa": "kg",
+    "propofol": {
+      "conc_mg_ml": 10,
+      "dosis_mg_kg": 7,
+      "dosis_mg": 3.5,
+      "vol_ml": 0.35
+    },
+    "ketamina": {
+      "conc_mg_ml": 100,
+      "dosis_mg_kg": 50,
+      "dosis_mg": 25,
+      "vol_ml": 0.25
+    }
+  },
+  "administracion": {
+    "hora": "14:49",
+    "tecnica": "derecho abdomen",
+    "propofol_ml": 0.35,
+    "ketamina_ml": 0.25,
+    "observaciones": "Sin complicacion"
+  },
+  "induccion": {
+    "administracion": "14:49",
+    "disminucion_actividad": "14:52",
+    "perdida_enderezamiento": "14:55",
+    "perdida_respuesta_estimulo": "14:56",
+    "perdida_reflejo_pedal": "14:56",
+    "plano_adecuado": "15:10",
+    "calidad": "Buena"
+  },
+  "monitorizacion": [
+    {
+      "tiempo": "basal",
+      "fc": 255,
+      "fr": 67,
+      "temp": 35.2,
+      "spo2": 84,
+      "ref_pedal": "2",
+      "relajacion": "0",
+      "plano": "1"
+    },
+    {
+      "tiempo": "5",
+      "fc": 243,
+      "fr": 65,
+      "temp": 35.2,
+      "spo2": 82,
+      "ref_pedal": "2",
+      "relajacion": "0",
+      "plano": "1"
+    },
+    {
+      "tiempo": "10",
+      "fc": 232,
+      "fr": 64,
+      "temp": 35.1,
+      "spo2": 78,
+      "ref_pedal": "2",
+      "relajacion": "0",
+      "plano": "1"
+    },
+    {
+      "tiempo": "15",
+      "fc": 232,
+      "fr": 69,
+      "temp": 34.3,
+      "spo2": 93,
+      "ref_pedal": "2",
+      "relajacion": "2",
+      "plano": "1"
+    },
+    {
+      "tiempo": "20",
+      "fc": 234,
+      "fr": 72,
+      "temp": 33.7,
+      "spo2": 96,
+      "ref_pedal": "2",
+      "relajacion": "1",
+      "plano": "1"
+    },
+    {
+      "tiempo": "30",
+      "fc": 213,
+      "fr": 71,
+      "temp": 32.2,
+      "spo2": 75,
+      "ref_pedal": "1",
+      "relajacion": "1",
+      "plano": "1"
+    },
+    {
+      "tiempo": "40",
+      "fc": 216,
+      "fr": 69,
+      "temp": 32.0,
+      "spo2": 93,
+      "ref_pedal": "0",
+      "relajacion": "1",
+      "plano": "2"
+    },
+    {
+      "tiempo": "50",
+      "fc": 245,
+      "fr": 67,
+      "temp": 32.0,
+      "spo2": 80,
+      "ref_pedal": "0",
+      "relajacion": "1",
+      "plano": "2"
+    },
+    {
+      "tiempo": "60",
+      "fc": 234,
+      "fr": 68,
+      "temp": 33.0,
+      "spo2": 58,
+      "ref_pedal": "0",
+      "relajacion": "0",
+      "plano": "2"
+    }
+  ],
+  "escala_profundidad": {
+    "movimiento": null,
+    "enderezamiento": null,
+    "reflejo_pedal": null,
+    "relajacion": null,
+    "evaluacion_global": null
+  },
+  "eventos_adversos": {
+    "marcados": [
+      "Hipotermia",
+      "Bradicardia",
+      "Hipoxemia"
+    ],
+    "otro": null,
+    "descripcion": "Se evidencion desaturacion de oxigeno, se registro bradicardia.",
+    "intervencion": "Sin complicaciones."
+  },
+  "suspension": {
+    "presento": "No",
+    "causa": "No aplica",
+    "hora": "No aplica",
+    "medidas": "No aplica",
+    "resultado": "Anestesia culminada segun protocolo. Recuperacion estable."
+  },
+  "recuperacion": {
+    "hora_suspension": null,
+    "primer_movimiento": "15:16",
+    "reflejo_pedal": "15:18",
+    "enderezamiento": "15:18",
+    "posicion_esternal": "15:24",
+    "ambulacion": "15:30",
+    "completa": "17:30",
+    "calidad": "0 = tranquila y normal"
+  },
+  "postanestesia": {
+    "temp_c": 35.5,
+    "fc": 250,
+    "fr": 65,
+    "spo2": 95,
+    "actividad": "Normal",
+    "postura": "Normal",
+    "apetito": "Normal",
+    "agua": "Normal",
+    "heces": "Normal",
+    "respiracion": "Normal",
+    "dolor": "No evidente",
+    "conducta": "Normal"
+  },
+  "seguimiento": {
+    "h1": "Normal",
+    "h2": "Normal",
+    "h4": "Normal",
+    "h24": "Normal",
+    "peso_posterior_g": 430,
+    "observaciones": "Se recupero, consumo de alimentos, sin complicaciones. pero bajo de peso"
+  },
+  "resultado_final": {
+    "eficacia": "Buena",
+    "seguridad": "Eventos adversos leves",
+    "recuperacion": "Buena",
+    "satisfactorio": "SI",
+    "justificacion": "El protocolo de anestesia combinada Propofol 7 mg/Kg + Ketamina 50 mg/Kg via IP permitio alcanzar y mantener un plano anestesico quirurgico. La recuperacion fue tranquila y completa."
+  },
+  "fecha_firma": "2026-09-09",
+  "notas_transcriptor": "Estructura de 8 paginas correcta (p97 identificacion ... p104 firma). Horas escritas sin am/pm y con punto como separador (p. ej. '2.49', '3.10'); convertidas a 24 h asumiendo tarde (coherente con fichas del mismo dia). Hora de inicio escrita '2:05'. Peso en calculo escrito '500' junto a la unidad impresa 'kg' (deberia ser 0.5 kg); dosis coherentes con 0.5 kg. Checklist: algunas casillas marcadas con X y otras con una sola diagonal/visto; todas se consideran marcadas. Tabla de monitorizacion con dos tintas (azul y negra), basal SpO2 escrito '84 %'. Anotaciones al margen izquierdo de la tabla: '3' junto a la fila 10 min y '3.10' junto a la fila 20 min (probablemente horas 15:00 aprox. y 15:10 = plano adecuado). FR 20 min '72' con el primer digito sobrescrito; Relajacion 15 min '2' sobrescrito (posible correccion de 0/1). Columna Plano con valores 1/2 (sin simbolos). Ref. pedal basal = 2 (inconsistente con animal en vigilia) - transcrito tal cual. Seccion H (escala de profundidad) completamente en blanco -> null. Pagina 101: trazo largo a mano (tipo visto/flecha) que cruza desde Bradicardia hasta Regurgitacion y marca en margen izquierdo; no parece seleccionar casillas adicionales. Bradicardia marcada aunque FC minima registrada 213 lpm. 'Hora de suspension anestesica' en blanco. Inconsistencia temporal: administracion 14:49, primer movimiento 15:16 y ambulacion 15:30, pero la tabla continua hasta 60 min (15:49) con Ref. pedal 0 y Plano 2. Recuperacion completa escrita '5:30' (interpretado 17:30, 2 h despues de la ambulacion). Peso posterior: valor original tachado (ilegible, posiblemente '469' o similar) y reescrito '430' debajo; observacion menciona 'bajo de peso' (500 -> 430 g). Fecha de firma 09/09/26 (dia siguiente).",
+  "flags": [
+    {
+      "campo": "identificacion.hora_inicio",
+      "leido": "14:05",
+      "alternativa": "02:05",
+      "motivo": "escrito '2:05' sin am/pm; se asume tarde"
+    },
+    {
+      "campo": "recuperacion.completa",
+      "leido": "17:30",
+      "alternativa": "15:30",
+      "motivo": "escrito '5:30' (primer digito claramente 5, pero podria ser error por 3:30 o 3:50)"
+    },
+    {
+      "campo": "recuperacion.enderezamiento",
+      "leido": "15:18",
+      "alternativa": "15:78",
+      "motivo": "digito 1 con gancho parecido a 7; 15:18 unico valor valido"
+    },
+    {
+      "campo": "monitorizacion[10].temp",
+      "leido": "35.1",
+      "alternativa": "35.7",
+      "motivo": "ultimo digito 1/7 ambiguo"
+    },
+    {
+      "campo": "monitorizacion[20].fr",
+      "leido": "72",
+      "alternativa": "12",
+      "motivo": "primer digito sobrescrito"
+    },
+    {
+      "campo": "monitorizacion[15].relajacion",
+      "leido": "2",
+      "alternativa": "0",
+      "motivo": "digito sobrescrito/corregido"
+    },
+    {
+      "campo": "monitorizacion[40].fc",
+      "leido": "216",
+      "alternativa": "276",
+      "motivo": "digito central 1/7 ambiguo"
+    },
+    {
+      "campo": "seguimiento.peso_posterior_g",
+      "leido": "430",
+      "alternativa": null,
+      "motivo": "valor original tachado, reescrito 430 debajo"
+    },
+    {
+      "campo": "monitorizacion[basal].spo2",
+      "leido": "84",
+      "alternativa": null,
+      "motivo": "escrito '84 %' con simbolo de porcentaje"
+    }
+  ]
+}

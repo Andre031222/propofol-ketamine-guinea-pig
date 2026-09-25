@@ -1,0 +1,260 @@
+{
+  "ficha": 3,
+  "paginas": [
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "identificacion": {
+    "codigo_estudio": "06",
+    "codigo_animal": "06",
+    "fecha": "2026-09-11",
+    "hora_inicio": "09:16",
+    "investigadores": [
+      "Team 03 member A",
+      "Team 03 member B"
+    ],
+    "sexo": "Macho",
+    "peso_g": 476,
+    "procedencia": "Mercado Union y Dignidad"
+  },
+  "preanestesia": {
+    "peso_g": 476,
+    "temp_c": 35.4,
+    "fc_lpm": 244,
+    "fr_rpm": 215,
+    "spo2_pct": 92,
+    "mucosas": "Rosadas",
+    "hidratacion": "Normal",
+    "condicion_corporal": null,
+    "estado_general": "Bueno",
+    "evaluacion_clinica": "Animal aparentemente sano",
+    "observaciones": "- El animal presenta temblores (Aparente miedo) No se mueve activamente."
+  },
+  "checklist": {
+    "todo_preparado": "SI",
+    "items_no_marcados": []
+  },
+  "calculo": {
+    "peso_escrito": "476",
+    "peso_unidad_impresa": "kg",
+    "propofol": {
+      "conc_mg_ml": 10,
+      "dosis_mg_kg": 7,
+      "dosis_mg": 3.332,
+      "vol_ml": 0.33
+    },
+    "ketamina": {
+      "conc_mg_ml": 100,
+      "dosis_mg_kg": 50,
+      "dosis_mg": 23.8,
+      "vol_ml": 0.23
+    }
+  },
+  "administracion": {
+    "hora": "09:53",
+    "tecnica": null,
+    "propofol_ml": 0.33,
+    "ketamina_ml": 0.23,
+    "observaciones": null
+  },
+  "induccion": {
+    "administracion": "09:54",
+    "disminucion_actividad": "09:59",
+    "perdida_enderezamiento": "10:05",
+    "perdida_respuesta_estimulo": "10:06",
+    "perdida_reflejo_pedal": "10:07",
+    "plano_adecuado": "10:10",
+    "calidad": "Muy buena"
+  },
+  "monitorizacion": [
+    {
+      "tiempo": "basal",
+      "fc": 244,
+      "fr": 220,
+      "temp": 35.4,
+      "spo2": 92,
+      "ref_pedal": "0",
+      "relajacion": "0",
+      "plano": "1"
+    },
+    {
+      "tiempo": "5",
+      "fc": 248,
+      "fr": 226,
+      "temp": 35.4,
+      "spo2": 96,
+      "ref_pedal": "0",
+      "relajacion": "0",
+      "plano": "1"
+    },
+    {
+      "tiempo": "10",
+      "fc": 244,
+      "fr": 219,
+      "temp": 35.1,
+      "spo2": 79,
+      "ref_pedal": "1",
+      "relajacion": "1",
+      "plano": "1"
+    },
+    {
+      "tiempo": "15",
+      "fc": 248,
+      "fr": 200,
+      "temp": 34.9,
+      "spo2": 82,
+      "ref_pedal": "2",
+      "relajacion": "1",
+      "plano": "2"
+    },
+    {
+      "tiempo": "20",
+      "fc": 248,
+      "fr": 215,
+      "temp": 34.9,
+      "spo2": 83,
+      "ref_pedal": "2",
+      "relajacion": "2",
+      "plano": "2"
+    },
+    {
+      "tiempo": "30",
+      "fc": 256,
+      "fr": 220,
+      "temp": 34.7,
+      "spo2": 91,
+      "ref_pedal": "2",
+      "relajacion": "2",
+      "plano": "3"
+    },
+    {
+      "tiempo": "40",
+      "fc": 254,
+      "fr": 220,
+      "temp": 34.2,
+      "spo2": 79,
+      "ref_pedal": "1",
+      "relajacion": "1",
+      "plano": "2"
+    },
+    {
+      "tiempo": "50",
+      "fc": 264,
+      "fr": 222,
+      "temp": 39.5,
+      "spo2": 80,
+      "ref_pedal": "1",
+      "relajacion": "1",
+      "plano": "1"
+    },
+    {
+      "tiempo": "60",
+      "fc": 260,
+      "fr": 224,
+      "temp": 34.9,
+      "spo2": 89,
+      "ref_pedal": "0",
+      "relajacion": "0",
+      "plano": "1"
+    }
+  ],
+  "escala_profundidad": {
+    "movimiento": null,
+    "enderezamiento": null,
+    "reflejo_pedal": null,
+    "relajacion": null,
+    "evaluacion_global": null
+  },
+  "eventos_adversos": {
+    "marcados": [],
+    "otro": null,
+    "descripcion": "- Metabolismo Basal Bajo 10:39",
+    "intervencion": null
+  },
+  "suspension": {
+    "presento": "No",
+    "causa": null,
+    "hora": null,
+    "medidas": null,
+    "resultado": null
+  },
+  "recuperacion": {
+    "hora_suspension": "10:44",
+    "primer_movimiento": "10:40",
+    "reflejo_pedal": "10:40",
+    "enderezamiento": "10:50",
+    "posicion_esternal": "10:50",
+    "ambulacion": "10:59",
+    "completa": "11:20",
+    "calidad": "0 = tranquila y normal"
+  },
+  "postanestesia": {
+    "temp_c": 35.8,
+    "fc": 240,
+    "fr": 235,
+    "spo2": 91,
+    "actividad": "Normal",
+    "postura": "Normal",
+    "apetito": "Normal",
+    "agua": "Normal",
+    "heces": "Normal",
+    "respiracion": "Normal",
+    "dolor": "No evidente",
+    "conducta": null
+  },
+  "seguimiento": {
+    "h1": "Normal",
+    "h2": "Normal",
+    "h4": "Normal",
+    "h24": "Normal",
+    "peso_posterior_g": 510,
+    "observaciones": "- Luego de la intervencion anestecica pasado las 2 horas presento apetito voraz."
+  },
+  "resultado_final": {
+    "eficacia": "Excelente",
+    "seguridad": "Sin eventos adversos",
+    "recuperacion": "Excelente",
+    "satisfactorio": "SI",
+    "justificacion": "Se siguio las constantes del paciente, asi mismo se observo una exelente recoperacion."
+  },
+  "fecha_firma": "20/14/26",
+  "notas_transcriptor": "Estructura de 8 páginas correcta (p17-24). Horas escritas con 'AM'. Peso 476 escrito en campo impreso 'kg' del cálculo (valor en g). Cálculos coherentes (476 g x 7 mg/kg = 3.332 mg; x 50 mg/kg = 23.8 mg; volúmenes truncados 0.33 y 0.23 mL). Hora de administración E = 09:53 vs registro de inducción = 09:54. Basal FR de la tabla (220) difiere de la preanestésica (215). Plano de la monitorización registrado como números 1-3 (no texto); a la izquierda de los valores de plano en filas 15, 20 y 40 hay trazos horizontales (posible marca de tabla, sin significado aparente). T° 50 min parece '39.5' (dígito sobreescrito, probablemente 34.5; implausible 39.5). Hora suspensión anestésica (10:44) es posterior al primer movimiento y recuperación reflejo pedal (10:40): inconsistencia en el original. Eventos adversos: ninguna casilla marcada (tampoco 'Ninguno'), pero descripción anota 'Metabolismo Basal Bajo 10:39'; Seguridad marcada 'Sin eventos adversos' a pesar de SpO2 79-83% en la monitorización. Escala de profundidad (H) completamente en blanco. Conducta postanestésica sin marcar. Fecha de firma escrita '20/14/26' (mes 14 inválido; posible 20/09/26 o 14/09/26 invertido); se deja literal. Peso posterior 510 g (> 476 g basal). Casilla Cronómetro con marca tenue interna. Firmas presentes.",
+  "flags": [
+    {
+      "campo": "monitorizacion[50].temp",
+      "leido": "39.5",
+      "alternativa": "34.5",
+      "motivo": "segundo dígito sobreescrito; 39.5 es implausible dada la tendencia 34.x"
+    },
+    {
+      "campo": "monitorizacion[5].fr",
+      "leido": "226",
+      "alternativa": "216",
+      "motivo": "dígito central corregido/sobreescrito"
+    },
+    {
+      "campo": "fecha_firma",
+      "leido": "20/14/26",
+      "alternativa": "2026-09-20",
+      "motivo": "mes 14 inválido"
+    },
+    {
+      "campo": "checklist.Cronómetro",
+      "leido": "marcado",
+      "alternativa": "no marcado",
+      "motivo": "marca tenue dentro de la casilla, sin tilde claro"
+    },
+    {
+      "campo": "postanestesia.fr",
+      "leido": "235",
+      "alternativa": "236",
+      "motivo": "último dígito poco claro"
+    }
+  ]
+}

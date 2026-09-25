@@ -1,0 +1,252 @@
+{
+  "ficha": 11,
+  "paginas": [
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88
+  ],
+  "identificacion": {
+    "codigo_estudio": "B2",
+    "codigo_animal": "01",
+    "fecha": "2026-09-08",
+    "hora_inicio": "13:48",
+    "investigadores": [
+      "Team 11 member A",
+      "Team 11 member B"
+    ],
+    "sexo": "Macho",
+    "peso_g": 504,
+    "procedencia": "Juliaca"
+  },
+  "preanestesia": {
+    "peso_g": 504,
+    "temp_c": 35.4,
+    "fc_lpm": 180,
+    "fr_rpm": 97,
+    "spo2_pct": 79,
+    "mucosas": "Normal (rosado palido)",
+    "hidratacion": "Normal",
+    "condicion_corporal": "normal",
+    "estado_general": "Bueno",
+    "evaluacion_clinica": "Animal aparentemente sano",
+    "observaciones": "El animal cumple con los parametros y requisitos establecidos para la evaluacion de la anestesia por admistracios combinada de propofol mas ketamina."
+  },
+  "checklist": {
+    "todo_preparado": "SI",
+    "items_no_marcados": []
+  },
+  "calculo": {
+    "peso_escrito": "0.504",
+    "peso_unidad_impresa": "kg",
+    "propofol": {
+      "conc_mg_ml": 10,
+      "dosis_mg_kg": 7,
+      "dosis_mg": 3.53,
+      "vol_ml": 0.35
+    },
+    "ketamina": {
+      "conc_mg_ml": 100,
+      "dosis_mg_kg": 50,
+      "dosis_mg": 25.2,
+      "vol_ml": 0.25
+    }
+  },
+  "administracion": {
+    "hora": "14:39",
+    "tecnica": "Region periumbilical / inyeccion intraperitoneal",
+    "propofol_ml": 0.35,
+    "ketamina_ml": 0.25,
+    "observaciones": "La administracion se realizo sin complicaciones y el animal presento sedacion progresiva."
+  },
+  "induccion": {
+    "administracion": "14:39",
+    "disminucion_actividad": "14:41",
+    "perdida_enderezamiento": "14:42",
+    "perdida_respuesta_estimulo": "14:43",
+    "perdida_reflejo_pedal": "14:43",
+    "plano_adecuado": "14:44",
+    "calidad": "Muy buena"
+  },
+  "monitorizacion": [
+    {
+      "tiempo": "basal",
+      "fc": 250,
+      "fr": 47,
+      "temp": 35.1,
+      "spo2": 85,
+      "ref_pedal": "0",
+      "relajacion": "0",
+      "plano": "1"
+    },
+    {
+      "tiempo": "5",
+      "fc": 216,
+      "fr": 29,
+      "temp": 33.4,
+      "spo2": 79,
+      "ref_pedal": "2",
+      "relajacion": "2",
+      "plano": "1"
+    },
+    {
+      "tiempo": "10",
+      "fc": 180,
+      "fr": 27,
+      "temp": 34,
+      "spo2": 69,
+      "ref_pedal": "2",
+      "relajacion": "2",
+      "plano": "2"
+    },
+    {
+      "tiempo": "15",
+      "fc": 198,
+      "fr": 25,
+      "temp": 32.7,
+      "spo2": 82,
+      "ref_pedal": "2",
+      "relajacion": "2",
+      "plano": "2"
+    },
+    {
+      "tiempo": "20",
+      "fc": 193,
+      "fr": 22,
+      "temp": 32.7,
+      "spo2": 83,
+      "ref_pedal": "2",
+      "relajacion": "2",
+      "plano": "2"
+    },
+    {
+      "tiempo": "30",
+      "fc": 129,
+      "fr": 21,
+      "temp": 32.3,
+      "spo2": 93,
+      "ref_pedal": "2",
+      "relajacion": "2",
+      "plano": "2"
+    },
+    {
+      "tiempo": "40",
+      "fc": 245,
+      "fr": 37,
+      "temp": 32.3,
+      "spo2": 99,
+      "ref_pedal": "1",
+      "relajacion": "1",
+      "plano": "1"
+    },
+    {
+      "tiempo": "50",
+      "fc": 233,
+      "fr": 35,
+      "temp": 32.6,
+      "spo2": 94,
+      "ref_pedal": "0",
+      "relajacion": "1",
+      "plano": "1"
+    },
+    {
+      "tiempo": "60",
+      "fc": 227,
+      "fr": 37,
+      "temp": 32.8,
+      "spo2": 99,
+      "ref_pedal": "0",
+      "relajacion": "0",
+      "plano": "1"
+    }
+  ],
+  "escala_profundidad": {
+    "movimiento": 2,
+    "enderezamiento": 2,
+    "reflejo_pedal": 2,
+    "relajacion": 2,
+    "evaluacion_global": "Plano adecuado"
+  },
+  "eventos_adversos": {
+    "marcados": [
+      "Hipotermia",
+      "Hipoxemia",
+      "Otro"
+    ],
+    "otro": "Miccion espontanea",
+    "descripcion": "Hubo un desenso de temperatura probablemente por el ambiente frio, se registro un descenso en la SpO2 y una miccion a los 40 minutos de la administracion",
+    "intervencion": "1. aislamos al paciente de la superficie fria con toallas de papel 2. verificar la lectura del oximetro y monitorear la SpO2 y el patron respiratorio 3. se realizo la limpieza y cambio de la superficie humeda"
+  },
+  "suspension": {
+    "presento": "No",
+    "causa": "ninguna, todo estuvo deacuerdo a los criterios establecidos",
+    "hora": null,
+    "medidas": null,
+    "resultado": null
+  },
+  "recuperacion": {
+    "hora_suspension": "14:39",
+    "primer_movimiento": "15:29",
+    "reflejo_pedal": "15:37",
+    "enderezamiento": "15:44",
+    "posicion_esternal": "15:48",
+    "ambulacion": "16:32",
+    "completa": "16:45",
+    "calidad": "0 = tranquila y normal"
+  },
+  "postanestesia": {
+    "temp_c": 33.7,
+    "fc": 204,
+    "fr": 25,
+    "spo2": 82,
+    "actividad": "Normal",
+    "postura": "Normal",
+    "apetito": "Disminuido",
+    "agua": "Normal",
+    "heces": "Normal",
+    "respiracion": "Normal",
+    "dolor": "No evidente",
+    "conducta": "Normal"
+  },
+  "seguimiento": {
+    "h1": "Normal",
+    "h2": "Normal",
+    "h4": "Normal",
+    "h24": "Normal",
+    "peso_posterior_g": 522,
+    "observaciones": "Recuperacion posanestesica satisfactoria con parametros fisiologicos estables y dentro de lo esperado"
+  },
+  "resultado_final": {
+    "eficacia": "Excelente",
+    "seguridad": "Eventos adversos leves",
+    "recuperacion": "Excelente",
+    "satisfactorio": "SI",
+    "justificacion": "El procedimiento presento una eficacia anestesica excelente alcanzando el plano anestisico requerido, obteniendo una adecuada relajación muscular y una recuperación excelente."
+  },
+  "fecha_firma": "2026-09-09",
+  "notas_transcriptor": "Páginas en orden, sin anomalías estructurales. Horas escritas en formato 12 h con 'pm' (convertidas a 24 h): hora de inicio '1:48 pm'. Código del estudio escrito entre comillas '\"B2\"'. Peso de cálculo escrito '0.504' kg. Hora de suspensión anestésica '2:39 pm' = hora de administración (posible error de registro). Hora, medidas y resultado de suspensión con un guion '—' (se registró null). Valores basales de la tabla (FC 250, FR 47, T 35.1, SpO2 85) difieren de la evaluación preanestésica (FC 180, FR 97, T 35.4, SpO2 79). T a los 10 min escrita '34.' (sin decimal). Columna Plano con valores numéricos 1/2. Peso posterior (522 g) mayor que el peso inicial (504 g). Fecha de firma 09/09/2026, distinta a la fecha del procedimiento (08/09/2026). Ortografía original conservada.",
+  "flags": [
+    {
+      "campo": "monitorizacion[15].fc",
+      "leido": "198",
+      "alternativa": "195",
+      "motivo": "Último dígito sobrescrito (8/5)"
+    },
+    {
+      "campo": "monitorizacion[30].temp",
+      "leido": "32.3",
+      "alternativa": "31.3",
+      "motivo": "Segundo dígito sobrescrito/corregido"
+    },
+    {
+      "campo": "postanestesia.fr",
+      "leido": "25",
+      "alternativa": "35",
+      "motivo": "Primer dígito de trazo atípico"
+    }
+  ]
+}

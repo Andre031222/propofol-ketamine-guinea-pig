@@ -1,0 +1,244 @@
+{
+  "ficha": 1,
+  "paginas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "identificacion": {
+    "codigo_estudio": null,
+    "codigo_animal": null,
+    "fecha": "2026-09-16",
+    "hora_inicio": "07:08",
+    "investigadores": [
+      "Team 01 member A",
+      "Team 01 member B"
+    ],
+    "sexo": "Macho",
+    "peso_g": 609,
+    "procedencia": "Mercado \"Unión y Dignidad\" - Puno"
+  },
+  "preanestesia": {
+    "peso_g": 609,
+    "temp_c": 34.1,
+    "fc_lpm": 220,
+    "fr_rpm": 110,
+    "spo2_pct": 98,
+    "mucosas": "Rosadas (Adecuadas)",
+    "hidratacion": null,
+    "condicion_corporal": "Adecuado",
+    "estado_general": "Bueno",
+    "evaluacion_clinica": "Animal aparentemente sano",
+    "observaciones": "Animal activo y alerta, sin alteraciones clínicas evidentes durante la evaluación preanestésica."
+  },
+  "checklist": {
+    "todo_preparado": "SI",
+    "items_no_marcados": []
+  },
+  "calculo": {
+    "peso_escrito": "609",
+    "peso_unidad_impresa": "kg",
+    "propofol": {
+      "conc_mg_ml": 7,
+      "dosis_mg_kg": 10,
+      "dosis_mg": 4.263,
+      "vol_ml": 0.42
+    },
+    "ketamina": {
+      "conc_mg_ml": 100,
+      "dosis_mg_kg": 50,
+      "dosis_mg": 30.45,
+      "vol_ml": 0.3
+    }
+  },
+  "administracion": {
+    "hora": "07:10",
+    "tecnica": "Administración intraperitoneal.",
+    "propofol_ml": 0.42,
+    "ketamina_ml": 0.3,
+    "observaciones": "Administración realizada satisfactoriamente, sin complicaciones inmediatas."
+  },
+  "induccion": {
+    "administracion": "07:10",
+    "disminucion_actividad": "07:12",
+    "perdida_enderezamiento": "07:13",
+    "perdida_respuesta_estimulo": "07:13",
+    "perdida_reflejo_pedal": "07:14",
+    "plano_adecuado": "07:14",
+    "calidad": "Muy buena"
+  },
+  "monitorizacion": [
+    {
+      "tiempo": "basal",
+      "fc": 220,
+      "fr": 110,
+      "temp": 34.1,
+      "spo2": 98,
+      "ref_pedal": "0",
+      "relajacion": "0",
+      "plano": "Vigilia"
+    },
+    {
+      "tiempo": "5",
+      "fc": 220,
+      "fr": 110,
+      "temp": 33.9,
+      "spo2": 98,
+      "ref_pedal": "1",
+      "relajacion": "1",
+      "plano": "A"
+    },
+    {
+      "tiempo": "10",
+      "fc": 210,
+      "fr": 98,
+      "temp": 33.7,
+      "spo2": 96,
+      "ref_pedal": "2",
+      "relajacion": "1",
+      "plano": "A"
+    },
+    {
+      "tiempo": "15",
+      "fc": 210,
+      "fr": 98,
+      "temp": 33.5,
+      "spo2": 96,
+      "ref_pedal": "2",
+      "relajacion": "1",
+      "plano": "A"
+    },
+    {
+      "tiempo": "20",
+      "fc": 200,
+      "fr": 88,
+      "temp": 33.3,
+      "spo2": 96,
+      "ref_pedal": "2",
+      "relajacion": "1",
+      "plano": "A"
+    },
+    {
+      "tiempo": "30",
+      "fc": 195,
+      "fr": 86,
+      "temp": 33.3,
+      "spo2": 87,
+      "ref_pedal": "2",
+      "relajacion": "1",
+      "plano": "A"
+    },
+    {
+      "tiempo": "40",
+      "fc": 195,
+      "fr": 70,
+      "temp": 33,
+      "spo2": 72,
+      "ref_pedal": "2",
+      "relajacion": "1",
+      "plano": "A"
+    },
+    {
+      "tiempo": "50",
+      "fc": 190,
+      "fr": 68,
+      "temp": 33,
+      "spo2": 37,
+      "ref_pedal": "2",
+      "relajacion": "1",
+      "plano": "A"
+    },
+    {
+      "tiempo": "60",
+      "fc": 195,
+      "fr": 72,
+      "temp": 33,
+      "spo2": 37,
+      "ref_pedal": "2",
+      "relajacion": "1",
+      "plano": "A"
+    }
+  ],
+  "escala_profundidad": {
+    "movimiento": 2,
+    "enderezamiento": 2,
+    "reflejo_pedal": 2,
+    "relajacion": 1,
+    "evaluacion_global": "Plano adecuado"
+  },
+  "eventos_adversos": {
+    "marcados": [
+      "Hipotermia"
+    ],
+    "otro": null,
+    "descripcion": "Se observó descenso progresivo de la temperatura corporal durante la anestesia, se mantuvo vigilancia durante el procedimiento.",
+    "intervencion": null
+  },
+  "suspension": {
+    "presento": "No",
+    "causa": null,
+    "hora": null,
+    "medidas": null,
+    "resultado": null
+  },
+  "recuperacion": {
+    "hora_suspension": null,
+    "primer_movimiento": "08:19",
+    "reflejo_pedal": "08:34",
+    "enderezamiento": "08:34",
+    "posicion_esternal": "08:35",
+    "ambulacion": "08:43",
+    "completa": "09:30",
+    "calidad": null
+  },
+  "postanestesia": {
+    "temp_c": 33.8,
+    "fc": 210,
+    "fr": 102,
+    "spo2": 97,
+    "actividad": "Disminuida",
+    "postura": "Normal",
+    "apetito": "Disminuido",
+    "agua": "Disminuido",
+    "heces": "Normal",
+    "respiracion": "Normal",
+    "dolor": "No evidente",
+    "conducta": null
+  },
+  "seguimiento": {
+    "h1": "Normal",
+    "h2": "Normal",
+    "h4": "Normal",
+    "h24": "Normal",
+    "peso_posterior_g": 608,
+    "observaciones": "Se observa que el animal se encuentra activo, con postura y comportamiento normal, sin alteraciones respiratorias."
+  },
+  "resultado_final": {
+    "eficacia": "Excelente",
+    "seguridad": "Sin eventos adversos",
+    "recuperacion": "Excelente",
+    "satisfactorio": "SI",
+    "justificacion": "El protocolo fue satisfactorio. El cobayo tuvo una buena recuperación, aunque durante la anestesia bajó su temperatura y presentó micción en tres ocasiones. Se recuperó con normalidad."
+  },
+  "fecha_firma": "2026-09-16",
+  "notas_transcriptor": "Horas escritas con 'am'. Peso del cálculo escrito 609 sobre unidad impresa 'kg' (en realidad gramos); dosis calculada propofol 4.263 mg (=0.609 kg x 7, no x 10 mg/kg) — no corregido. Columna Plano: 5-60 min se anota un símbolo tipo 'A'/triángulo (probablemente 'Adecuado'). SpO2 escrita 87, 72, 37, 37 en 30-60 min (lectura clara; 37 fisiológicamente improbable, posible 97) mientras 'Hipoxemia' no está marcada y seguridad = 'Sin eventos adversos' a pesar de hipotermia marcada. '[redacted] ' escrito fuera de la línea del investigador 2. Hidratación, calidad de recuperación y conducta sin marcar. Firmas presentes. Sin anomalías de páginas.",
+  "flags": [
+    {
+      "campo": "monitorizacion[*].plano",
+      "leido": "A",
+      "alternativa": "Δ / Adecuado",
+      "motivo": "símbolo tipo A/triángulo, significado no explícito"
+    },
+    {
+      "campo": "monitorizacion[7..8].spo2",
+      "leido": "37",
+      "alternativa": "97",
+      "motivo": "dígitos claros pero valor fisiológicamente improbable; posible error de escritura"
+    }
+  ]
+}

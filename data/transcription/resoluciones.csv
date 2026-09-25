@@ -1,0 +1,13 @@
+ficha,campo,valor_p1,valor_p2,valor_final,motivo
+3,monit.50.temp,39.5,34.5,34.5,Dígito sobrescrito; continuidad de la serie (34.2 -> 34.9); 39.5 fisiológicamente incompatible con la tendencia
+9,monit.30.spo2,91,41,91,Forma del primer dígito coincide con los 9 de la misma columna; continuidad (87 -> 90)
+13,monit.basal.fc,255,253,255,Revisado a 80 dpi tras comparar con transcripción externa (235): se lee claramente 255 (P1 correcto)
+1,monit.*.plano,Δ,A,Δ,Mismo símbolo (triángulo); diferencia solo de notación
+2,recuperacion.*,38 min,38min.,38 min,Diferencia solo de formato
+8,escala_profundidad.movimiento,1 y 2 (ambas marcadas),1,,Dos casillas marcadas en el original: se codifica como dato ambiguo
+6,monit.*.fc,276,2.76,276,"Original escribe la FC con punto (""2.76""); mismo valor, 276 lpm"
+6,monit.basal.plano,–,-,–,Diferencia solo de carácter
+11,identificacion.codigo_estudio,"""B2""",B2,B2,Comillas escritas en el original; mismo código
+2,monit.15.fr,95,95,85,Transcripción externa leyó 85; en recorte a 80 dpi el primer dígito es 8
+6,monit.5.fr,106,105,105,Transcripción externa y P2 leen 105; confirmado en recorte
+10,monit.10.fc,170,170,170,"Externa leyó 176; recorte compatible con 170 (se mantiene, flag)"

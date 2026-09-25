@@ -1,0 +1,254 @@
+{
+  "ficha": 3,
+  "paginas": [
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "identificacion": {
+    "codigo_estudio": "06",
+    "codigo_animal": "06",
+    "fecha": "2026-09-11",
+    "hora_inicio": "09:16",
+    "investigadores": [
+      "Team 03 member A",
+      "Team 03 member B"
+    ],
+    "sexo": "Macho",
+    "peso_g": 476,
+    "procedencia": "Mercado Union y Dignidad"
+  },
+  "preanestesia": {
+    "peso_g": 476,
+    "temp_c": 35.4,
+    "fc_lpm": 244,
+    "fr_rpm": 215,
+    "spo2_pct": 92,
+    "mucosas": "Rosadas",
+    "hidratacion": "Normal",
+    "condicion_corporal": null,
+    "estado_general": "Bueno",
+    "evaluacion_clinica": "Animal aparentemente sano",
+    "observaciones": "El animal presenta temblores (Aparente miedo) No se mueve activamente."
+  },
+  "checklist": {
+    "todo_preparado": "SI",
+    "items_no_marcados": []
+  },
+  "calculo": {
+    "peso_escrito": "476",
+    "peso_unidad_impresa": "kg",
+    "propofol": {
+      "conc_mg_ml": 10,
+      "dosis_mg_kg": 7,
+      "dosis_mg": 3.332,
+      "vol_ml": 0.33
+    },
+    "ketamina": {
+      "conc_mg_ml": 100,
+      "dosis_mg_kg": 50,
+      "dosis_mg": 23.8,
+      "vol_ml": 0.23
+    }
+  },
+  "administracion": {
+    "hora": "09:53",
+    "tecnica": null,
+    "propofol_ml": 0.33,
+    "ketamina_ml": 0.23,
+    "observaciones": null
+  },
+  "induccion": {
+    "administracion": "09:54",
+    "disminucion_actividad": "09:59",
+    "perdida_enderezamiento": "10:05",
+    "perdida_respuesta_estimulo": "10:06",
+    "perdida_reflejo_pedal": "10:07",
+    "plano_adecuado": "10:10",
+    "calidad": "Muy buena"
+  },
+  "monitorizacion": [
+    {
+      "tiempo": "basal",
+      "fc": 244,
+      "fr": 220,
+      "temp": 35.4,
+      "spo2": 92,
+      "ref_pedal": "0",
+      "relajacion": "0",
+      "plano": "1"
+    },
+    {
+      "tiempo": "5",
+      "fc": 248,
+      "fr": 226,
+      "temp": 35.4,
+      "spo2": 96,
+      "ref_pedal": "0",
+      "relajacion": "0",
+      "plano": "1"
+    },
+    {
+      "tiempo": "10",
+      "fc": 244,
+      "fr": 219,
+      "temp": 35.1,
+      "spo2": 79,
+      "ref_pedal": "1",
+      "relajacion": "1",
+      "plano": "1"
+    },
+    {
+      "tiempo": "15",
+      "fc": 248,
+      "fr": 200,
+      "temp": 34.9,
+      "spo2": 82,
+      "ref_pedal": "2",
+      "relajacion": "1",
+      "plano": "2"
+    },
+    {
+      "tiempo": "20",
+      "fc": 248,
+      "fr": 215,
+      "temp": 34.9,
+      "spo2": 83,
+      "ref_pedal": "2",
+      "relajacion": "2",
+      "plano": "2"
+    },
+    {
+      "tiempo": "30",
+      "fc": 256,
+      "fr": 220,
+      "temp": 34.7,
+      "spo2": 91,
+      "ref_pedal": "2",
+      "relajacion": "2",
+      "plano": "3"
+    },
+    {
+      "tiempo": "40",
+      "fc": 254,
+      "fr": 220,
+      "temp": 34.2,
+      "spo2": 79,
+      "ref_pedal": "1",
+      "relajacion": "1",
+      "plano": "2"
+    },
+    {
+      "tiempo": "50",
+      "fc": 264,
+      "fr": 222,
+      "temp": 34.5,
+      "spo2": 80,
+      "ref_pedal": "1",
+      "relajacion": "1",
+      "plano": "1"
+    },
+    {
+      "tiempo": "60",
+      "fc": 260,
+      "fr": 224,
+      "temp": 34.9,
+      "spo2": 89,
+      "ref_pedal": "0",
+      "relajacion": "0",
+      "plano": "1"
+    }
+  ],
+  "escala_profundidad": {
+    "movimiento": null,
+    "enderezamiento": null,
+    "reflejo_pedal": null,
+    "relajacion": null,
+    "evaluacion_global": null
+  },
+  "eventos_adversos": {
+    "marcados": [],
+    "otro": null,
+    "descripcion": "Metabolismo Basal Bajo 10:39",
+    "intervencion": null
+  },
+  "suspension": {
+    "presento": "No",
+    "causa": null,
+    "hora": null,
+    "medidas": null,
+    "resultado": null
+  },
+  "recuperacion": {
+    "hora_suspension": "10:44",
+    "primer_movimiento": "10:40",
+    "reflejo_pedal": "10:40",
+    "enderezamiento": "10:50",
+    "posicion_esternal": "10:50",
+    "ambulacion": "10:59",
+    "completa": "11:20",
+    "calidad": "0 = tranquila y normal"
+  },
+  "postanestesia": {
+    "temp_c": 35.8,
+    "fc": 240,
+    "fr": 235,
+    "spo2": 91,
+    "actividad": "Normal",
+    "postura": "Normal",
+    "apetito": "Normal",
+    "agua": "Normal",
+    "heces": "Normal",
+    "respiracion": "Normal",
+    "dolor": "No evidente",
+    "conducta": null
+  },
+  "seguimiento": {
+    "h1": "Normal",
+    "h2": "Normal",
+    "h4": "Normal",
+    "h24": "Normal",
+    "peso_posterior_g": 510,
+    "observaciones": "Luego de la intervención anestésica pasado las 2 horas presentó apetito voraz."
+  },
+  "resultado_final": {
+    "eficacia": "Excelente",
+    "seguridad": "Sin eventos adversos",
+    "recuperacion": "Excelente",
+    "satisfactorio": "SI",
+    "justificacion": "Se siguió las constantes del paciente, así mismo se observó una exelente recuperación."
+  },
+  "fecha_firma": "20/14/26",
+  "notas_transcriptor": "Horas escritas con 'AM'. Fecha identificación 11/09/26 (año 2 dígitos). Fecha de firma escrita '20/14/26' (mes 14 inválido), guardada literal. Peso del cálculo 476 sobre unidad impresa 'kg'. Hora de administración 9:53 en sección E pero 9:54 en registro de inducción. Hora de suspensión anestésica 10:44 posterior a primer movimiento/recuperación reflejo pedal (10:40). FR basal en tabla 220 vs 215 en evaluación preanestésica. Columna FC con sufijo 'LPM', FR con 'FR', T° con '°'. Columna Plano numérica (1,1,1,2,2,3,2,1,1) con trazos horizontales extra al margen de celdas 15–50 min. SpO2 79–83% en varios tiempos sin 'Hipoxemia' marcada; ningún evento adverso marcado pero descripción 'Metabolismo Basal Bajo 10:39'. Escala de profundidad (H) sin marcar; condición corporal, lugar/técnica, observaciones de administración y conducta vacíos. Peso posterior 510 g > peso inicial 476 g. Casilla 'Cronómetro' con marca muy tenue (considerada marcada). 'exelente' tal cual escrito. Sin anomalías de páginas.",
+  "flags": [
+    {
+      "campo": "monitorizacion[1].fr",
+      "leido": "226",
+      "alternativa": "216",
+      "motivo": "dígito central sobrescrito"
+    },
+    {
+      "campo": "monitorizacion[7].temp",
+      "leido": "34.5",
+      "alternativa": "39.5",
+      "motivo": "segundo dígito sobrescrito 4/9"
+    },
+    {
+      "campo": "fecha_firma",
+      "leido": "20/14/26",
+      "alternativa": "2026-09-20",
+      "motivo": "mes 14 inválido"
+    },
+    {
+      "campo": "checklist.items_no_marcados",
+      "leido": "[]",
+      "alternativa": "[\"Cronómetro\"]",
+      "motivo": "marca muy tenue en la casilla Cronómetro"
+    }
+  ]
+}

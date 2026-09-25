@@ -1,0 +1,283 @@
+{
+  "ficha": 9,
+  "paginas": [
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72
+  ],
+  "identificacion": {
+    "codigo_estudio": "B2",
+    "codigo_animal": "02",
+    "fecha": "2026-09-08",
+    "hora_inicio": "13:48",
+    "investigadores": [
+      "Team 09 member A",
+      "Team 09 member B"
+    ],
+    "sexo": "Macho",
+    "peso_g": 553,
+    "procedencia": "Puno"
+  },
+  "preanestesia": {
+    "peso_g": 553,
+    "temp_c": 36.5,
+    "fc_lpm": 193,
+    "fr_rpm": 153,
+    "spo2_pct": 77,
+    "mucosas": "Normal",
+    "hidratacion": "Normal",
+    "condicion_corporal": "Bueno",
+    "estado_general": "Bueno",
+    "evaluacion_clinica": "Animal aparentemente sano",
+    "observaciones": "Animal estresado y nervioso"
+  },
+  "checklist": {
+    "todo_preparado": "SI",
+    "items_no_marcados": [
+      "Criterios de inclusión confirmados",
+      "Criterios de exclusión descartados"
+    ]
+  },
+  "calculo": {
+    "peso_escrito": "553",
+    "peso_unidad_impresa": "kg",
+    "propofol": {
+      "conc_mg_ml": 10,
+      "dosis_mg_kg": 7,
+      "dosis_mg": 3.87,
+      "vol_ml": 0.39
+    },
+    "ketamina": {
+      "conc_mg_ml": 100,
+      "dosis_mg_kg": 50,
+      "dosis_mg": 27.65,
+      "vol_ml": 0.28
+    }
+  },
+  "administracion": {
+    "hora": "14:40",
+    "tecnica": null,
+    "propofol_ml": 0.39,
+    "ketamina_ml": 0.28,
+    "observaciones": null
+  },
+  "induccion": {
+    "administracion": "14:40",
+    "disminucion_actividad": "14:12",
+    "perdida_enderezamiento": "14:43",
+    "perdida_respuesta_estimulo": "14:44",
+    "perdida_reflejo_pedal": "14:48",
+    "plano_adecuado": "14:48",
+    "calidad": "Buena"
+  },
+  "monitorizacion": [
+    {
+      "tiempo": "basal",
+      "fc": null,
+      "fr": null,
+      "temp": null,
+      "spo2": null,
+      "ref_pedal": "X",
+      "relajacion": "X",
+      "plano": null
+    },
+    {
+      "tiempo": "5",
+      "fc": 250,
+      "fr": 35,
+      "temp": 35.7,
+      "spo2": 81,
+      "ref_pedal": "X",
+      "relajacion": "X",
+      "plano": "I"
+    },
+    {
+      "tiempo": "10",
+      "fc": 246,
+      "fr": 36,
+      "temp": 35.1,
+      "spo2": 89,
+      "ref_pedal": null,
+      "relajacion": "✓",
+      "plano": "I"
+    },
+    {
+      "tiempo": "15",
+      "fc": 218,
+      "fr": 38,
+      "temp": 34.1,
+      "spo2": 84,
+      "ref_pedal": null,
+      "relajacion": "✓",
+      "plano": "II"
+    },
+    {
+      "tiempo": "20",
+      "fc": 212,
+      "fr": 42,
+      "temp": 33.4,
+      "spo2": 87,
+      "ref_pedal": null,
+      "relajacion": "✓",
+      "plano": "II"
+    },
+    {
+      "tiempo": "30",
+      "fc": 210,
+      "fr": 46,
+      "temp": 33.2,
+      "spo2": 41,
+      "ref_pedal": null,
+      "relajacion": "✓",
+      "plano": "I"
+    },
+    {
+      "tiempo": "40",
+      "fc": 220,
+      "fr": 50,
+      "temp": 32.6,
+      "spo2": 90,
+      "ref_pedal": null,
+      "relajacion": "✓",
+      "plano": "I"
+    },
+    {
+      "tiempo": "50",
+      "fc": 226,
+      "fr": 58,
+      "temp": 32.1,
+      "spo2": 88,
+      "ref_pedal": null,
+      "relajacion": "✓",
+      "plano": "I"
+    },
+    {
+      "tiempo": "60",
+      "fc": 236,
+      "fr": 60,
+      "temp": 32.3,
+      "spo2": 86,
+      "ref_pedal": null,
+      "relajacion": "✓",
+      "plano": "I"
+    }
+  ],
+  "escala_profundidad": {
+    "movimiento": 1,
+    "enderezamiento": 1,
+    "reflejo_pedal": 1,
+    "relajacion": 1,
+    "evaluacion_global": "Plano adecuado"
+  },
+  "eventos_adversos": {
+    "marcados": [
+      "Ninguno"
+    ],
+    "otro": null,
+    "descripcion": null,
+    "intervencion": null
+  },
+  "suspension": {
+    "presento": "No",
+    "causa": null,
+    "hora": null,
+    "medidas": null,
+    "resultado": null
+  },
+  "recuperacion": {
+    "hora_suspension": null,
+    "primer_movimiento": "15:28",
+    "reflejo_pedal": "15:49",
+    "enderezamiento": "15:59",
+    "posicion_esternal": null,
+    "ambulacion": "16:00",
+    "completa": "16:30",
+    "calidad": "0 = tranquila y normal"
+  },
+  "postanestesia": {
+    "temp_c": 35,
+    "fc": 181,
+    "fr": 150,
+    "spo2": 78,
+    "actividad": "Normal",
+    "postura": "Normal",
+    "apetito": "Normal",
+    "agua": "Normal",
+    "heces": "Normal",
+    "respiracion": "Normal",
+    "dolor": "No evidente",
+    "conducta": "Normal"
+  },
+  "seguimiento": {
+    "h1": "Alterado",
+    "h2": "Normal",
+    "h4": "Normal",
+    "h24": "Normal",
+    "peso_posterior_g": 559,
+    "observaciones": "Ninguna"
+  },
+  "resultado_final": {
+    "eficacia": "Buena",
+    "seguridad": "Sin eventos adversos",
+    "recuperacion": "Excelente",
+    "satisfactorio": "SI",
+    "justificacion": null
+  },
+  "fecha_firma": "2026-09-08",
+  "notas_transcriptor": "Páginas en orden (A-O). Fecha escrita '08/09/26'. Ninguna hora lleva am/pm; se infiere PM (13:48 inicio, 14:40 administración, recuperación 15:28-16:30). Hora exacta de administración escrita en dos líneas: '2:40 Ketamina' / '2:41 Propofol' (se registra 14:40). Peso del cálculo '553' sobre línea con unidad impresa kg. Dosis calculada propofol con un carácter inicial tachado/emborronado antes de '3.87'. Monitorización: fila basal vacía salvo 'X' en Ref. pedal y Relajación; Ref. pedal 'X' a 5 min y vacío después; Relajación con 'X' (basal, 5) y check '✓' (10-60); Plano en romanos. SpO2 30 min '41' escrito claramente (atípico). Preanestesia SpO2 77%. Pérdida del reflejo pedal escrita a lápiz y sobrescrita. Disminución de actividad '2:12' anterior a la administración (2:40), probablemente 2:42. Eventos adversos: 'Ninguno' marcado; la casilla de Taquicardia aparece con borde incompleto (defecto de impresión/escaneo, no parece marcada). Posición esternal y hora de suspensión vacías. Seguimiento 1 hora 'Alterado' sin observación que lo explique (observaciones 'Ninguna').",
+  "flags": [
+    {
+      "campo": "identificacion.hora_inicio",
+      "leido": "13:48",
+      "alternativa": "01:48",
+      "motivo": "Escrito '1:48' sin am/pm; se infiere PM por contexto"
+    },
+    {
+      "campo": "induccion.disminucion_actividad",
+      "leido": "14:12",
+      "alternativa": "14:42",
+      "motivo": "Escrito '2:12'; anterior a administración (2:40), el '1' podría ser un 4 incompleto"
+    },
+    {
+      "campo": "induccion.perdida_reflejo_pedal",
+      "leido": "14:48",
+      "alternativa": "15:47",
+      "motivo": "Lápiz sobrescrito: primer dígito 2/3 y último 7/8"
+    },
+    {
+      "campo": "calculo.ketamina.dosis_mg_kg",
+      "leido": "50",
+      "alternativa": "80",
+      "motivo": "Primer dígito con forma de 'δ', entre 5 y 8"
+    },
+    {
+      "campo": "calculo.ketamina.dosis_mg",
+      "leido": "27.65",
+      "alternativa": "27.85",
+      "motivo": "Dígito tras el punto con forma de 'δ', entre 6 y 8"
+    },
+    {
+      "campo": "calculo.propofol.dosis_mg",
+      "leido": "3.87",
+      "alternativa": "3.82",
+      "motivo": "Último dígito ambiguo 7/2; carácter inicial tachado"
+    },
+    {
+      "campo": "recuperacion.reflejo_pedal",
+      "leido": "15:49",
+      "alternativa": "15:44",
+      "motivo": "Último dígito ambiguo 9/4"
+    },
+    {
+      "campo": "monitorizacion[30].spo2",
+      "leido": "41",
+      "alternativa": "91",
+      "motivo": "Primer dígito parece 4; valor atípico"
+    }
+  ]
+}

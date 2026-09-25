@@ -1,0 +1,261 @@
+{
+  "ficha": 10,
+  "paginas": [
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "identificacion": {
+    "codigo_estudio": "B2",
+    "codigo_animal": "04",
+    "fecha": "2026-09-08",
+    "hora_inicio": "14:00",
+    "investigadores": [
+      "Team 10 member A",
+      "Team 10 member B"
+    ],
+    "sexo": "Macho",
+    "peso_g": 587,
+    "procedencia": "Unión Dignidad - Puno"
+  },
+  "preanestesia": {
+    "peso_g": 587,
+    "temp_c": 35.3,
+    "fc_lpm": 124,
+    "fr_rpm": 106,
+    "spo2_pct": 49,
+    "mucosas": "regular",
+    "hidratacion": "Normal",
+    "condicion_corporal": "regular",
+    "estado_general": "Bueno",
+    "evaluacion_clinica": "Animal aparentemente sano",
+    "observaciones": "El cobayo presentó una saturación de oxígeno de 49% bajo en relación con los parámetros normales."
+  },
+  "checklist": {
+    "todo_preparado": "SI",
+    "items_no_marcados": [
+      "Tiempo de ayuno registrado",
+      "Jeringas rotuladas"
+    ]
+  },
+  "calculo": {
+    "peso_escrito": "587",
+    "peso_unidad_impresa": "kg",
+    "propofol": {
+      "conc_mg_ml": 10,
+      "dosis_mg_kg": 7,
+      "dosis_mg": 41.09,
+      "vol_ml": 0.41
+    },
+    "ketamina": {
+      "conc_mg_ml": 100,
+      "dosis_mg_kg": 50,
+      "dosis_mg": 29.35,
+      "vol_ml": 0.29
+    }
+  },
+  "administracion": {
+    "hora": "14:43",
+    "tecnica": "Laboratorio Farmacología",
+    "propofol_ml": 0.41,
+    "ketamina_ml": 0.29,
+    "observaciones": "Durante el procedimiento se observó la micción y defecación con frecuencia"
+  },
+  "induccion": {
+    "administracion": "14:43",
+    "disminucion_actividad": "14:47",
+    "perdida_enderezamiento": "14:51",
+    "perdida_respuesta_estimulo": "14:51",
+    "perdida_reflejo_pedal": "14:52",
+    "plano_adecuado": "14:52",
+    "calidad": "Muy buena"
+  },
+  "monitorizacion": [
+    {
+      "tiempo": "basal",
+      "fc": 124,
+      "fr": 106,
+      "temp": 35.3,
+      "spo2": 49,
+      "ref_pedal": "2",
+      "relajacion": "0",
+      "plano": "I"
+    },
+    {
+      "tiempo": "5",
+      "fc": 172,
+      "fr": 60,
+      "temp": 32.7,
+      "spo2": 70,
+      "ref_pedal": "2",
+      "relajacion": "0",
+      "plano": "I"
+    },
+    {
+      "tiempo": "10",
+      "fc": 170,
+      "fr": 68,
+      "temp": 32.5,
+      "spo2": 69,
+      "ref_pedal": "2",
+      "relajacion": "0",
+      "plano": "I"
+    },
+    {
+      "tiempo": "15",
+      "fc": 160,
+      "fr": 68,
+      "temp": 33.0,
+      "spo2": 72,
+      "ref_pedal": "2",
+      "relajacion": "1",
+      "plano": "I"
+    },
+    {
+      "tiempo": "20",
+      "fc": 178,
+      "fr": 69,
+      "temp": 32.2,
+      "spo2": 74,
+      "ref_pedal": "2",
+      "relajacion": "1",
+      "plano": "I"
+    },
+    {
+      "tiempo": "30",
+      "fc": 204,
+      "fr": 96,
+      "temp": 32.7,
+      "spo2": 70,
+      "ref_pedal": "1",
+      "relajacion": "1",
+      "plano": "I"
+    },
+    {
+      "tiempo": "40",
+      "fc": 168,
+      "fr": 96,
+      "temp": 32.4,
+      "spo2": 71,
+      "ref_pedal": "0",
+      "relajacion": "1",
+      "plano": "I"
+    },
+    {
+      "tiempo": "50",
+      "fc": 180,
+      "fr": 102,
+      "temp": 33.3,
+      "spo2": 77,
+      "ref_pedal": "0",
+      "relajacion": "0",
+      "plano": "I"
+    },
+    {
+      "tiempo": "60",
+      "fc": 172,
+      "fr": 100,
+      "temp": 33.7,
+      "spo2": 76,
+      "ref_pedal": "0",
+      "relajacion": "0",
+      "plano": "I"
+    }
+  ],
+  "escala_profundidad": {
+    "movimiento": 2,
+    "enderezamiento": 2,
+    "reflejo_pedal": 2,
+    "relajacion": 0,
+    "evaluacion_global": "Plano adecuado"
+  },
+  "eventos_adversos": {
+    "marcados": [
+      "Hipotermia",
+      "Taquicardia",
+      "Recuperación prolongada"
+    ],
+    "otro": null,
+    "descripcion": "Durante la recuperación anastésico, el cuy presentó una recuperación prolongada, con retorno progresivo a estímulos y actividad motora.",
+    "intervencion": "Se mantuvo al animal observación y monitorización de sus parámetros fisiológicos hasta lograr la recuperación adecuada."
+  },
+  "suspension": {
+    "presento": "Sí",
+    "causa": "Recuperación anastésica prolongada",
+    "hora": "16:00",
+    "medidas": "Se mantuvo al animal en observación, hasta su recuperación.",
+    "resultado": "Recuperación progresiva del estado de conciencia y de la actividad motora."
+  },
+  "recuperacion": {
+    "hora_suspension": "15:55",
+    "primer_movimiento": "15:36",
+    "reflejo_pedal": "15:44",
+    "enderezamiento": "16:12",
+    "posicion_esternal": "16:20",
+    "ambulacion": "17:10",
+    "completa": "17:50",
+    "calidad": "1 = ligeramente excitada"
+  },
+  "postanestesia": {
+    "temp_c": 36.5,
+    "fc": 142,
+    "fr": 79,
+    "spo2": 80,
+    "actividad": "Normal",
+    "postura": "Normal",
+    "apetito": "Normal",
+    "agua": "Normal",
+    "heces": "Normal",
+    "respiracion": "Normal",
+    "dolor": "No evidente",
+    "conducta": "Normal"
+  },
+  "seguimiento": {
+    "h1": "Normal",
+    "h2": "Normal",
+    "h4": "Normal",
+    "h24": "Normal",
+    "peso_posterior_g": 580,
+    "observaciones": "El favorable cobayo presentó una recuperación postanastésica satisfactoria, con actividad progresivamente normal, tiene buen apetito y adecuad ingesta de agua, sin signos de dolor."
+  },
+  "resultado_final": {
+    "eficacia": "Excelente",
+    "seguridad": "Sin eventos adversos",
+    "recuperacion": "Excelente",
+    "satisfactorio": "SI",
+    "justificacion": "El procedimiento se realizó con la finalidad de evaluar los efectos de la combinación de propofol y Ketamina. Mediamente el seguimiento de los principales parámetros fisiológicos."
+  },
+  "fecha_firma": "2026-09-08",
+  "notas_transcriptor": "Páginas en orden, sin anomalías estructurales. Concentraciones/dosis escritas como fracciones: propofol conc '10/1' mg/mL, dosis '7/1' mg/kg; ketamina conc '100/1', dosis '50/1'. Peso de cálculo '587' sobre unidad impresa 'kg' (son gramos). Hora exacta de administración escrita 'Ketamina 14:43 propofol 14:44' (se registró 14:43). En inducción, 'Administración 14:43' con el '4' de la hora sobrescrito/corregido. Columna Plano de la monitorización con 'I' en todas las filas. Inconsistencias no corregidas: primer movimiento (15:36) y reflejo pedal (15:44) anteriores a la hora de suspensión anestésica (15:55); criterio de suspensión 'Sí' a las 16:00; eventos adversos marcados pero seguridad 'Sin eventos adversos'; calidad de recuperación 'ligeramente excitada' pero recuperación 'Excelente'. SpO2 basal 49% (anotado en observaciones). Textos con errores ortográficos transcritos tal cual ('anastésico', 'Mediamente', 'adecuad', 'El favorable cobayo').",
+  "flags": [
+    {
+      "campo": "monitorizacion[50].temp",
+      "leido": "33.3",
+      "alternativa": "32.3",
+      "motivo": "Segundo dígito sobrescrito (3 sobre 2) con tinta más oscura"
+    },
+    {
+      "campo": "monitorizacion[60].temp",
+      "leido": "33.7",
+      "alternativa": "32.7",
+      "motivo": "Segundo dígito repasado/sobrescrito con tinta más oscura"
+    },
+    {
+      "campo": "administracion.hora",
+      "leido": "14:43",
+      "alternativa": "14:44",
+      "motivo": "Se escribieron dos horas: ketamina 14:43, propofol 14:44"
+    },
+    {
+      "campo": "preanestesia.mucosas",
+      "leido": "regular",
+      "alternativa": "regulor",
+      "motivo": "Letra poco clara; se interpreta como 'regular'"
+    }
+  ]
+}

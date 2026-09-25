@@ -1,0 +1,270 @@
+{
+  "ficha": 6,
+  "paginas": [
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48
+  ],
+  "identificacion": {
+    "codigo_estudio": "B1",
+    "codigo_animal": "04",
+    "fecha": "2026-09-11",
+    "hora_inicio": "09:00",
+    "investigadores": [
+      "Team 06 member A",
+      "Team 06 member B"
+    ],
+    "sexo": "Macho",
+    "peso_g": 0.539,
+    "procedencia": "Puno"
+  },
+  "preanestesia": {
+    "peso_g": 539,
+    "temp_c": 37.8,
+    "fc_lpm": 280,
+    "fr_rpm": 112,
+    "spo2_pct": 96,
+    "mucosas": "Rosada Humedas",
+    "hidratacion": "Normal",
+    "condicion_corporal": "adecuada",
+    "estado_general": "Bueno",
+    "evaluacion_clinica": "Animal aparentemente sano",
+    "observaciones": "No se evidencia secrecion nasal. Animal tranquilo, con escasa inquietud durante la práctica se observa conducta de acicalamiento, lamiendose y mordisqueandose las extremidades anteriores, similar a la conducta de aseo observada en otros pequeños mamiferos"
+  },
+  "checklist": {
+    "todo_preparado": "SI",
+    "items_no_marcados": [
+      "Ketamina identificada"
+    ]
+  },
+  "calculo": {
+    "peso_escrito": "0.539",
+    "peso_unidad_impresa": "kg",
+    "propofol": {
+      "conc_mg_ml": 10,
+      "dosis_mg_kg": 7,
+      "dosis_mg": 3.773,
+      "vol_ml": 0.38
+    },
+    "ketamina": {
+      "conc_mg_ml": 100,
+      "dosis_mg_kg": 50,
+      "dosis_mg": 26.95,
+      "vol_ml": 0.27
+    }
+  },
+  "administracion": {
+    "hora": "09:53",
+    "tecnica": "Laboratorio de farmacologia, Administración intraperitonial mediante técnica Aséptica según procedimiento establecido para pequeños animales",
+    "propofol_ml": 0.38,
+    "ketamina_ml": 0.27,
+    "observaciones": "Administracion realizada sin incidentes inmediatos, se inicio monitorizacion continua"
+  },
+  "induccion": {
+    "administracion": "09:53",
+    "disminucion_actividad": "09:57",
+    "perdida_enderezamiento": "09:58",
+    "perdida_respuesta_estimulo": "10:06",
+    "perdida_reflejo_pedal": "10:04",
+    "plano_adecuado": "10:08",
+    "calidad": "Muy buena"
+  },
+  "monitorizacion": [
+    {
+      "tiempo": "basal",
+      "fc": 280,
+      "fr": 112,
+      "temp": 37.8,
+      "spo2": 96,
+      "ref_pedal": "SI",
+      "relajacion": "NO",
+      "plano": "–"
+    },
+    {
+      "tiempo": "5",
+      "fc": 270,
+      "fr": 106,
+      "temp": 36.0,
+      "spo2": 96,
+      "ref_pedal": "SI",
+      "relajacion": "SI",
+      "plano": "1"
+    },
+    {
+      "tiempo": "10",
+      "fc": 276,
+      "fr": 80,
+      "temp": 35.0,
+      "spo2": 96,
+      "ref_pedal": "NO",
+      "relajacion": "SI",
+      "plano": "2"
+    },
+    {
+      "tiempo": "15",
+      "fc": 260,
+      "fr": 86,
+      "temp": 35.5,
+      "spo2": 96,
+      "ref_pedal": "NO",
+      "relajacion": "SI",
+      "plano": "2"
+    },
+    {
+      "tiempo": "20",
+      "fc": 274,
+      "fr": 84,
+      "temp": 35.4,
+      "spo2": 90,
+      "ref_pedal": "NO",
+      "relajacion": "SI",
+      "plano": "2"
+    },
+    {
+      "tiempo": "30",
+      "fc": 278,
+      "fr": 87,
+      "temp": 36.5,
+      "spo2": 96,
+      "ref_pedal": "SI",
+      "relajacion": "NO",
+      "plano": "1"
+    },
+    {
+      "tiempo": "40",
+      "fc": 276,
+      "fr": 92,
+      "temp": 36.2,
+      "spo2": 96,
+      "ref_pedal": "SI",
+      "relajacion": "NO",
+      "plano": "1"
+    },
+    {
+      "tiempo": "50",
+      "fc": 270,
+      "fr": 89,
+      "temp": 36.4,
+      "spo2": 96,
+      "ref_pedal": "SI",
+      "relajacion": "NO",
+      "plano": "1"
+    },
+    {
+      "tiempo": "60",
+      "fc": 270,
+      "fr": 97,
+      "temp": 37.0,
+      "spo2": 96,
+      "ref_pedal": "SI",
+      "relajacion": "NO",
+      "plano": "1"
+    }
+  ],
+  "escala_profundidad": {
+    "movimiento": 1,
+    "enderezamiento": 2,
+    "reflejo_pedal": 2,
+    "relajacion": 1,
+    "evaluacion_global": "Plano adecuado"
+  },
+  "eventos_adversos": {
+    "marcados": [
+      "Ninguno"
+    ],
+    "otro": null,
+    "descripcion": "Descenso de temperatura desde 37.8°C basal hasta un minimo de 35°C a los 10 minutos. Se observo ademas un descenso transitorio de SpO2 hasta 90% a los 20 minutos, con retorno a 96% a los 30 minutos. a la vez el efecto anestésico demoro",
+    "intervencion": null
+  },
+  "suspension": {
+    "presento": "No",
+    "causa": null,
+    "hora": null,
+    "medidas": null,
+    "resultado": null
+  },
+  "recuperacion": {
+    "hora_suspension": null,
+    "primer_movimiento": "10:16",
+    "reflejo_pedal": "10:20",
+    "enderezamiento": "10:22",
+    "posicion_esternal": "10:24",
+    "ambulacion": "10:28",
+    "completa": "10:34",
+    "calidad": "0 = tranquila y normal"
+  },
+  "postanestesia": {
+    "temp_c": 36.6,
+    "fc": 272,
+    "fr": 96,
+    "spo2": 95,
+    "actividad": "Disminuida",
+    "postura": "Normal",
+    "apetito": "Normal",
+    "agua": "Normal",
+    "heces": "Normal",
+    "respiracion": "Normal",
+    "dolor": "No evidente",
+    "conducta": "Normal"
+  },
+  "seguimiento": {
+    "h1": "Alterado",
+    "h2": "Normal",
+    "h4": "Normal",
+    "h24": "Normal",
+    "peso_posterior_g": 0.534,
+    "observaciones": "1 hora Alterado -> ligera disminución de actividad. Durante la primera hora posanestésica se observo ligera disminución de la actividad, con una recuperación progresiva a partir de las 2 horas el animal presento actividad, postura, respiración y comportamiento aparentemente normales"
+  },
+  "resultado_final": {
+    "eficacia": "Buena",
+    "seguridad": "Eventos adversos leves",
+    "recuperacion": "Buena",
+    "satisfactorio": "SI",
+    "justificacion": "El protocolo nos permitio alcanzar un plano anastesico adecuado, con perdida temporal de los reflejos evaluados y recuperación progresiva, sin complicaciones graves ni necesidad de suspender el procedemiento."
+  },
+  "fecha_firma": null,
+  "notas_transcriptor": "Estructura correcta: 8 páginas (41-48) consecutivas de un mismo animal (código 04, estudio B1). Fecha escrita 11/09/26. Peso en identificación escrito '0.539' con unidad impresa 'g' (transcrito literal 0.539; en evaluación preanestésica 539 g). Peso posterior escrito '0.534.' con unidad impresa 'g'. Casillas del checklist marcadas con un tilde diagonal; 'Ketamina identificada' parece no tener el tilde (resto sí). 'Tiempo de ayuno registrado' con anotación '4 horas de ayuno'. Propofol administrado escrito '0.38,' (marca final tras el número). Inducción no monótona: pérdida de respuesta a estímulo 10:06 posterior a pérdida de reflejo pedal 10:04. Monitoreo: FC a 10, 20, 30, 40, 50 min escritas con punto ('2.76', '2.74', '2.78', '2.76', '2.70'); transcritas como enteros 276, 274, 278, 276, 270. Ref. pedal y Relajación anotados como SI/NO; Plano basal con un guion '–' y luego números 1/2. Relajación 'SI' en 5-20 min y 'NO' en 30-60 min. Eventos adversos: solo 'Ninguno' marcado pero la descripción documenta descenso de temperatura (37.8 -> 35 °C) y SpO2 90%, y Seguridad marca 'Eventos adversos leves' (inconsistencia). Hora de suspensión anestésica vacía. Recuperación (primer movimiento 10:16, completa 10:34) es incoherente con la tabla de monitorización hasta 60 min (plano adecuado 10:08 -> 60 min ≈ 11:08) donde Ref. pedal ya es SI desde 30 min. Firma: nombres de investigadoras con rúbricas; fecha de firma en blanco.",
+  "flags": [
+    {
+      "campo": "monitorizacion[5].fr",
+      "leido": "106",
+      "alternativa": "105",
+      "motivo": "último dígito ambiguo 5/6"
+    },
+    {
+      "campo": "monitorizacion[15].temp",
+      "leido": "35.5",
+      "alternativa": "35.6",
+      "motivo": "decimal ambiguo 5/6"
+    },
+    {
+      "campo": "monitorizacion[10..50].fc",
+      "leido": "276/274/278/276/270",
+      "alternativa": "2.76/2.74/2.78/2.76/2.70 literal",
+      "motivo": "escritas con punto entre dígitos"
+    },
+    {
+      "campo": "checklist.items_no_marcados",
+      "leido": "Ketamina identificada no marcada",
+      "alternativa": "marcada",
+      "motivo": "casilla sin tilde visible, pero con marca tenue"
+    },
+    {
+      "campo": "induccion.perdida_respuesta_estimulo",
+      "leido": "10:06",
+      "alternativa": "10:00",
+      "motivo": "no monótono respecto a pérdida reflejo pedal 10:04"
+    },
+    {
+      "campo": "identificacion.peso_g",
+      "leido": "0.539",
+      "alternativa": "539",
+      "motivo": "escrito en kg sobre campo con unidad g"
+    }
+  ]
+}

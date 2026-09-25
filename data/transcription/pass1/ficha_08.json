@@ -1,0 +1,283 @@
+{
+  "ficha": 8,
+  "paginas": [
+    57,
+    58,
+    59,
+    60,
+    62,
+    61,
+    63,
+    64
+  ],
+  "identificacion": {
+    "codigo_estudio": "003",
+    "codigo_animal": "003",
+    "fecha": "2026-09-08",
+    "hora_inicio": "14:00",
+    "investigadores": [
+      "Team 08 member A",
+      "Team 08 member B"
+    ],
+    "sexo": "Macho",
+    "peso_g": 552,
+    "procedencia": "Puno"
+  },
+  "preanestesia": {
+    "peso_g": 552,
+    "temp_c": 35.2,
+    "fc_lpm": 240,
+    "fr_rpm": 140,
+    "spo2_pct": 95,
+    "mucosas": "Normales",
+    "hidratacion": "Normal",
+    "condicion_corporal": "Buena",
+    "estado_general": "Bueno",
+    "evaluacion_clinica": "Animal aparentemente sano",
+    "observaciones": "Micción Repetitivamente"
+  },
+  "checklist": {
+    "todo_preparado": "SI",
+    "items_no_marcados": [
+      "Examen clínico realizado",
+      "Criterios de inclusión confirmados",
+      "Criterios de exclusión descartados",
+      "Tiempo de ayuno registrado",
+      "Concentración comprobada",
+      "Dosis aprobada por protocolo",
+      "Jeringas rotuladas"
+    ]
+  },
+  "calculo": {
+    "peso_escrito": "0,552",
+    "peso_unidad_impresa": "kg",
+    "propofol": {
+      "conc_mg_ml": 10,
+      "dosis_mg_kg": 7,
+      "dosis_mg": 3.864,
+      "vol_ml": 0.386
+    },
+    "ketamina": {
+      "conc_mg_ml": 100,
+      "dosis_mg_kg": 50,
+      "dosis_mg": 27.6,
+      "vol_ml": 0.276
+    }
+  },
+  "administracion": {
+    "hora": "14:42",
+    "tecnica": null,
+    "propofol_ml": 0.39,
+    "ketamina_ml": 0.28,
+    "observaciones": null
+  },
+  "induccion": {
+    "administracion": "14:42",
+    "disminucion_actividad": "14:45",
+    "perdida_enderezamiento": "14:46",
+    "perdida_respuesta_estimulo": "14:46",
+    "perdida_reflejo_pedal": "14:50",
+    "plano_adecuado": "I",
+    "calidad": "Muy buena"
+  },
+  "monitorizacion": [
+    {
+      "tiempo": "basal",
+      "fc": 240,
+      "fr": 140,
+      "temp": 35.2,
+      "spo2": 95,
+      "ref_pedal": "Normal",
+      "relajacion": "Normal",
+      "plano": "I"
+    },
+    {
+      "tiempo": "5",
+      "fc": 247,
+      "fr": 50,
+      "temp": 33.9,
+      "spo2": 65,
+      "ref_pedal": "no",
+      "relajacion": "Marcada",
+      "plano": "I"
+    },
+    {
+      "tiempo": "10",
+      "fc": 230,
+      "fr": 46,
+      "temp": 32.8,
+      "spo2": 59,
+      "ref_pedal": "no",
+      "relajacion": "Marcada",
+      "plano": "I"
+    },
+    {
+      "tiempo": "15",
+      "fc": 255,
+      "fr": 32,
+      "temp": 32.7,
+      "spo2": 84,
+      "ref_pedal": "no",
+      "relajacion": "Marcada",
+      "plano": "I"
+    },
+    {
+      "tiempo": "20",
+      "fc": 236,
+      "fr": 44,
+      "temp": 32.6,
+      "spo2": 91,
+      "ref_pedal": "Ausente",
+      "relajacion": "Marcada",
+      "plano": "I"
+    },
+    {
+      "tiempo": "30",
+      "fc": 242,
+      "fr": 59,
+      "temp": 32.0,
+      "spo2": 80,
+      "ref_pedal": "Ausente",
+      "relajacion": "Moderada",
+      "plano": "I"
+    },
+    {
+      "tiempo": "40",
+      "fc": 235,
+      "fr": 68,
+      "temp": 34.0,
+      "spo2": 80,
+      "ref_pedal": "Moderado",
+      "relajacion": "Moderada",
+      "plano": "I"
+    },
+    {
+      "tiempo": "50",
+      "fc": 228,
+      "fr": 66,
+      "temp": 32.6,
+      "spo2": 95,
+      "ref_pedal": "Normal",
+      "relajacion": "Normal",
+      "plano": "I"
+    },
+    {
+      "tiempo": "60",
+      "fc": 225,
+      "fr": 79,
+      "temp": 32.0,
+      "spo2": 90,
+      "ref_pedal": "Normal",
+      "relajacion": "Normal",
+      "plano": "I"
+    }
+  ],
+  "escala_profundidad": {
+    "movimiento": "1 y 2 (ambas marcadas)",
+    "enderezamiento": 0,
+    "reflejo_pedal": 0,
+    "relajacion": 0,
+    "evaluacion_global": "Plano adecuado"
+  },
+  "eventos_adversos": {
+    "marcados": [
+      "Hipotermia",
+      "Recuperación prolongada"
+    ],
+    "otro": null,
+    "descripcion": null,
+    "intervencion": null
+  },
+  "suspension": {
+    "presento": "No",
+    "causa": null,
+    "hora": null,
+    "medidas": null,
+    "resultado": null
+  },
+  "recuperacion": {
+    "hora_suspension": "16:00",
+    "primer_movimiento": "15:55",
+    "reflejo_pedal": "16:00",
+    "enderezamiento": "15:50",
+    "posicion_esternal": "15:50",
+    "ambulacion": "15:55",
+    "completa": "16:30",
+    "calidad": "0 = tranquila y normal"
+  },
+  "postanestesia": {
+    "temp_c": 32,
+    "fc": 225,
+    "fr": 79,
+    "spo2": 90,
+    "actividad": "Disminuida",
+    "postura": "Normal",
+    "apetito": "Normal",
+    "agua": "Normal",
+    "heces": "Normal",
+    "respiracion": "Normal",
+    "dolor": "No evidente",
+    "conducta": "Normal"
+  },
+  "seguimiento": {
+    "h1": "Normal",
+    "h2": "Normal",
+    "h4": "Normal",
+    "h24": "Normal",
+    "peso_posterior_g": 475,
+    "observaciones": null
+  },
+  "resultado_final": {
+    "eficacia": "Excelente",
+    "seguridad": "Sin eventos adversos",
+    "recuperacion": "Excelente",
+    "satisfactorio": "SI",
+    "justificacion": null
+  },
+  "fecha_firma": "2026-09-09",
+  "notas_transcriptor": "ANOMALÍA ESTRUCTURAL: páginas 61 y 62 están en orden invertido: p61 contiene K. Recuperación / L. Evaluación postanestésica (normalmente la 6ª página) y p62 contiene la lista de eventos adversos (I) y J. Criterios de suspensión (normalmente la 5ª). Orden lógico: 57,58,59,60,62,61,63,64. Mismo animal (continuidad de datos: postanestesia en p61 = fila 60 min de p60). Fecha escrita '08/09/26' (año abreviado). Horas escritas en formato 12 h con 'PM' (02:00 PM, 02:42 PM, 3:55 PM...), convertidas a 24 h. Investigadores en p57 solo '[redacted] ' y '[redacted] '; nombres completos en la firma (p64): '[redacted] Velasquez Copa' y '[redacted] Barrionuevo Velasquez'. Checklist: 7 ítems sin marcar pero '¿Todo preparado?' = SÍ. Concentraciones escritas '10/1' y '100/1' mg/mL. Propofol 7 × 0.552 = 3.864 mg, 0.386 mL (correcto); ketamina 50 × 0.552 = 27.6 mg, 0.276 mL (correcto); administrado redondeado 0.39 y 0.28 mL. Lugar/técnica y observaciones de administración en blanco. 'Plano anestésico adecuado' en registro de inducción contiene 'I' (numeral romano) en lugar de una hora. Columna 'Plano' de monitorización: 'I' (numeral romano) en todas las filas; algunos con barra superior doble. Columnas Ref. pedal y Relajación con texto ('Normal', 'no', 'Ausente', 'Moderado', 'Marcada', 'Moderada') en vez de puntuación numérica. Temperatura basal 35.2 y descenso a 32.0 (hipotermia marcada). SpO2 65 y 59 a los 5 y 10 min pero 'Hipoxemia' no marcada; FR 32-59 pero 'Bradipnea' no marcada. Escala de profundidad: Movimiento con dos casillas marcadas (1 Disminuido y 2 Ausente); enderezamiento, reflejo pedal y relajación marcados como 0 (Presente/Normal), incongruente con tabla y con 'Plano adecuado'. Recuperación: tiempos no monótonos — enderezamiento y esternal 15:50 anteriores al primer movimiento 15:55; reflejo pedal 16:00 (sobrescrito) igual a hora de suspensión 16:00, que es posterior al primer movimiento. Seguridad 'Sin eventos adversos' pese a Hipotermia y Recuperación prolongada marcadas. Peso posterior 475 g vs 552 g inicial (pérdida de 77 g). Fecha de firma 09/09/2026 (día siguiente al procedimiento). Descripción, intervención, observaciones de seguimiento y justificación en blanco.",
+  "flags": [
+    {
+      "campo": "preanestesia.fr_rpm",
+      "leido": "140",
+      "alternativa": "190",
+      "motivo": "dígito central repasado/sobrescrito; 140 coincide con FR basal de la tabla"
+    },
+    {
+      "campo": "monitorizacion[5].temp",
+      "leido": "33.9",
+      "alternativa": "38.9",
+      "motivo": "segundo dígito posiblemente sobrescrito; 33.9 coherente con tendencia descendente"
+    },
+    {
+      "campo": "monitorizacion[15].temp",
+      "leido": "32.7",
+      "alternativa": null,
+      "motivo": "segundo dígito escrito de forma irregular"
+    },
+    {
+      "campo": "monitorizacion[50].plano",
+      "leido": "I",
+      "alternativa": "II",
+      "motivo": "símbolo con barras dobles, podría ser II"
+    },
+    {
+      "campo": "recuperacion.reflejo_pedal",
+      "leido": "16:00",
+      "alternativa": null,
+      "motivo": "minutos sobrescritos/emborronados, ilegibles con certeza"
+    },
+    {
+      "campo": "seguimiento.peso_posterior_g",
+      "leido": "475",
+      "alternativa": null,
+      "motivo": "valor legible pero implausible respecto a 552 g iniciales (-77 g)"
+    },
+    {
+      "campo": "identificacion.fecha",
+      "leido": "2026-09-08",
+      "alternativa": null,
+      "motivo": "año escrito abreviado '26'"
+    }
+  ]
+}
