@@ -5,6 +5,15 @@ authors:
   - family-names: "Carbajal Mamani"
     given-names: "Yoshely Viky"
     affiliation: "Facultad de Medicina Veterinaria y Zootecnia, Universidad Nacional del Altiplano, Puno, Peru"
+  - family-names: "Vilca Solorzano"
+    given-names: "Richar Andre"
+    affiliation: "Facultad de Ingeniería Estadística e Informática, Universidad Nacional del Altiplano, Puno, Peru"
+  - family-names: "Ibáñez Quispe"
+    given-names: "Vladimiro"
+    affiliation: "Facultad de Ingeniería Estadística e Informática, Universidad Nacional del Altiplano, Puno, Peru"
+  - family-names: "Zavaleta Gibaja"
+    given-names: "Mario Rubén"
+    affiliation: "Facultad de Medicina Veterinaria y Zootecnia, Universidad Nacional del Altiplano, Puno, Peru"
 date-released: 2026-09-25
 license: MIT
 repository-code: "https://github.com/Andre031222/propofol-ketamine-guinea-pig"

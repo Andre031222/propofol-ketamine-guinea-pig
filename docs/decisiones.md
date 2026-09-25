@@ -12,7 +12,7 @@ Los JSON de `data/transcription/` nunca se modifican: reflejan lo escrito en las
 - Animales: cuy criollo (nativo andino), no cepa de laboratorio (confirmado por el equipo).
 - Oxímetro: el equipo indica que se usa también en animales, adaptado a la extremidad. → la SpO₂ se interpreta con validez limitada.
 - Curso: Farmacología y Terapéutica Veterinaria I, Facultad de Medicina Veterinaria y Zootecnia.
-  Responsable: veterinario del curso Mario Rubén. Protocolo redactado por R. [redacted] .
+  Responsable: Zavaleta Gibaja, Mario Rubén. Protocolo redactado por R. Zavaleta.
 - **Aprobación ética: pendiente de confirmar.** Requisito para cualquier revista indexada.
 
 ## Verificación de la transcripción

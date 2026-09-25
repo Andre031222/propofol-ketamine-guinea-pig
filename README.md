@@ -13,7 +13,12 @@ this repository.**
 [![Double entry](https://img.shields.io/badge/Transcription_agreement-98.5%25-2E7D32?style=flat-square)](#from-handwritten-records-to-a-verified-dataset)
 [![Reproducible](https://img.shields.io/badge/Pipeline-one_command-337AB7?style=flat-square)](#reproducing-the-results)
 
-Facultad de Medicina Veterinaria y Zootecnia, Universidad Nacional del Altiplano, Puno, Peru.
+**Yoshely Viky Carbajal Mamani**¹, **Richar Andre Vilca Solorzano**², **Vladimiro Ibáñez Quispe**²,
+**Mario Rubén Zavaleta Gibaja**¹
+
+¹ Facultad de Medicina Veterinaria y Zootecnia · ² Facultad de Ingeniería Estadística e Informática —
+Universidad Nacional del Altiplano, Puno, Peru.
+
 This repository holds the data and the code; the article itself will be distributed by the journal.
 
 ---
@@ -161,7 +166,7 @@ Manuscript in preparation. Until it is published, please cite this repository:
 
 ```bibtex
 @misc{carbajal2026propofolketamine,
-  author = {Carbajal Mamani, Yoshely Viky and others},
+  author = {Carbajal Mamani, Yoshely Viky and Vilca Solorzano, Richar Andre and Ib{\'a}{\~n}ez Quispe, Vladimiro and Zavaleta Gibaja, Mario Rub{\'e}n},
   title  = {Intraperitoneal propofol--ketamine in Andean guinea pigs: reliable immobilisation but marked hypothermia (data and code)},
   year   = {2026},
   url    = {https://github.com/Andre031222/propofol-ketamine-guinea-pig}
